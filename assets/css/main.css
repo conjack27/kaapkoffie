@@ -1,0 +1,53 @@
+* {
+    font-family: roboto;
+}
+
+body {
+    margin: 0;
+}
+
+.main {
+    background-color: #eaacff;
+    height: 100vh;
+    width: 100vw;
+}
+
+.nav {
+    @media (min-width: 600px) {
+        position: fixed;
+    }
+}
+
+.nav-menu {
+    background-color: #ffffff;
+    width: 100%;
+
+    @media (min-width: 600px) {
+        display: block;
+        background-color: none;
+        width: 30%;
+    }
+    
+}
+
+.nav-heading {
+    color: #000000;
+}
+
+.nav-list {
+    list-style-type: none;
+    display: none;
+
+    &.visible {
+        display: block;
+    }
+}
+
+.nav-item {
+    cursor: pointer;
+}
+
+.main-video {
+    width: 800px;
+    height: 600px;
+}
