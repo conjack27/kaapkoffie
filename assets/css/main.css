@@ -1,53 +1,100 @@
 * {
-    font-family: roboto;
+  font-family: roboto;
+  box-sizing: border-box;
 }
 
 body {
-    margin: 0;
+  margin: 0;
 }
 
 .main {
-    background-color: #eaacff;
-    height: 100vh;
-    width: 100vw;
+  background-color: #eaacff;
+  height: 100vh;
+  width: 100vw;
 }
 
 .nav {
-    @media (min-width: 600px) {
-        position: fixed;
-    }
+  background-color: #000000;
+  @media (min-width: 600px) {
+    display: flex;
+    justify-content: center;
+  }
 }
 
 .nav-menu {
-    background-color: #ffffff;
-    width: 100%;
+  position: fixed;
+  display: flex;
+  justify-content: space-around;
+  border: 1px solid black;
+  padding: 0px 20px;
+  background-color: rgba(0, 0, 0, 0.5);
+  width: 100%;
 
-    @media (min-width: 600px) {
-        display: block;
-        background-color: none;
-        width: 30%;
-    }
-    
+  @media (min-width: 600px) {
+    padding: 0 20%;
+    justify-content: space-around;
+  }
 }
 
 .nav-heading {
-    color: #000000;
+}
+
+.nav-blocker {
+  background-color: #000000;
+  position: fixed;
+  height: 70px;
+  width: 100%;
+  @media (min-width: 600px) {
+    display: block;
+  }
 }
 
 .nav-list {
-    list-style-type: none;
-    display: none;
+  list-style-type: none;
+  height: 0;
+  overflow: hidden;
+  transition: height 0.3s ease;
+  transition: height 0.3s ease;
+  padding-left: 0;
+  margin: 0;
 
-    &.visible {
-        display: block;
+  &.visible {
+    height: 100px;
+
+    .nav-item {
+      padding: 5px 0;
     }
+  }
 }
 
 .nav-item {
-    cursor: pointer;
+  color: #ffffff;
+  cursor: pointer;
+  overflow: hidden;
+  transition: padding 0.3s ease;
+}
+
+.nav-item-link {
+  text-decoration: none;
+  color: #ffffff;
+  cursor: pointer;
+
+  &:hover {
+    color: #eaacff;
+  }
+}
+
+-------------------------------
+/* Page */
+.why {
+  padding: 0px;
+}
+
+.this-should-work {
+  padding-top: 49px;
 }
 
 .main-video {
-    width: 800px;
-    height: 600px;
+  width: 800px;
+  height: 600px;
 }
