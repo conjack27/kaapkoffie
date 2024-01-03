@@ -5,7 +5,7 @@ export default defineNuxtConfig({
   css: ['~/assets/css/main.css'],
   googleFonts: {
     families: {
-      Roboto: true,
+      Arial: true,
       'Josefin+Sans': true,
       Lato: [100, 300],
       Raleway: {
