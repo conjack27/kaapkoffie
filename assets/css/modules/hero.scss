@@ -1,0 +1,21 @@
+.hero {
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 500px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+}
+
+.hero--women {
+  background-image: url('https://taupe-mochi-8cdda8.netlify.app/images/squad.jpg');
+}
+
+.hero__heading {
+  color: #fff;
+  font-size: 2.5rem;
+  font-weight: 700;
+  margin-left: 20px;
+}

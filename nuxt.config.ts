@@ -2,7 +2,7 @@
 export default defineNuxtConfig({
   devtools: { enabled: true },
   modules: ['@nuxtjs/google-fonts'],
-  css: ['~/assets/css/main.css'],
+  css: ['~/assets/css/main.scss'],
   googleFonts: {
     families: {
       Arial: true,

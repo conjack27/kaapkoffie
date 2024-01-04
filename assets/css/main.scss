@@ -1,0 +1,26 @@
+@import 'modules/nav';
+@import 'modules/home';
+@import 'modules/hero';
+@import 'modules/text';
+@import 'modules/horeca';
+
+* {
+  font-family: roboto;
+  box-sizing: border-box;
+  font-family: 'Arial', sans-serif;
+}
+
+body {
+  margin: 0;
+  height: 100vh;
+  width: 100vw;
+  background-color: #d9d5c8;
+}
+
+.why {
+  padding: 0px;
+}
+
+.page {
+  padding-top: 65px;
+}

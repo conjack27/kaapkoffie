@@ -1,0 +1,111 @@
+.nav {
+  background-color: #000000;
+  z-index: 2;
+
+  @media (min-width: 600px) {
+    display: flex;
+    justify-content: center;
+  }
+}
+
+.nav-menu {
+  position: fixed;
+  display: flex;
+  justify-content: space-around;
+  padding: 0px 10px;
+  background-color: rgba(0, 0, 0, 0.5);
+  width: 100%;
+  z-index: 1000;
+
+  @media (min-width: 600px) {
+    padding: 0 20%;
+    justify-content: space-between;
+  }
+}
+
+.nav__logo {
+  height: 50px;
+  width: auto;
+  padding-top: 10px;
+
+  @media (min-width: 600px) {
+    position: absolute;
+    left: 20px;
+    height: 60px;
+    width: 60px;
+  }
+}
+
+.nav-heading {
+  font-weight: normal;
+  font-size: 1.5em;
+  margin: 0;
+  padding: 15px;
+
+  @media (min-width: 600px) {
+    font-size: 2em;
+  }
+}
+
+.nav-blocker {
+  background-color: #000000;
+  position: fixed;
+  height: 60px;
+  width: 100%;
+  @media (min-width: 600px) {
+    height: 70px;
+    display: block;
+  }
+}
+
+.nav-list {
+  list-style-type: none;
+  height: 0;
+  overflow: hidden;
+  transition: height 0.3s ease;
+  transition: height 0.3s ease;
+  padding-left: 0;
+  margin: 0;
+
+  &.about-visible {
+    height: 160px;
+
+    @media (min-width: 600px) {
+      height: 120px;
+    }
+
+    .nav-item {
+      padding: 5px 0;
+    }
+  }
+
+  &.order-visible {
+    height: 100px;
+
+    .nav-item {
+      padding: 5px 0;
+    }
+  }
+}
+
+.nav-item {
+  color: #ffffff;
+  cursor: pointer;
+  overflow: hidden;
+  transition: padding 0.3s ease;
+  flex: 0 1 27%;
+
+  @media (min-width: 600px) {
+    flex: 0 1 33%;
+  }
+}
+
+.nav-item-link {
+  text-decoration: none;
+  color: #ffffff;
+  cursor: pointer;
+
+  &:hover {
+    color: #eaacff;
+  }
+}

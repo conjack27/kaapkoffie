@@ -7,6 +7,14 @@
                     Kaap koffie
                 </h1></a
             > -->
+      <NuxtLink class="nav-item-link" to="/">
+        <img
+          src="../assets/images/logo.png"
+          class="nav__logo"
+          alt="Kaapkoffie"
+          title="Kaapkoffie"
+        />
+      </NuxtLink>
       <div @mouseleave="orderMenuIsVisible = false" class="nav-item">
         <h2
           class="nav-heading"
@@ -15,13 +23,13 @@
         >
           Order
         </h2>
-        <ul class="nav-list" :class="{ visible: orderMenuIsVisible }">
+        <ul class="nav-list" :class="{ 'order-visible': orderMenuIsVisible }">
           <li class="nav-item active">
             <NuxtLink class="nav-item-link" to="/retail">Retail</NuxtLink>
           </li>
           <li class="nav-item">
             <NuxtLink class="nav-item-link" to="/hospitality-office"
-              >Hospitality/Office</NuxtLink
+              >Hospitality & Office</NuxtLink
             >
           </li>
           <li class="nav-item">
@@ -37,7 +45,7 @@
         >
           About
         </h2>
-        <ul class="nav-list" :class="{ visible: aboutMenuIsVisible }">
+        <ul class="nav-list" :class="{ 'about-visible': aboutMenuIsVisible }">
           <li class="nav-item active">
             <NuxtLink class="nav-item-link" to="/about-us">About us</NuxtLink>
           </li>
@@ -49,6 +57,11 @@
           <li class="nav-item">
             <NuxtLink class="nav-item-link" to="/about-the-coffee"
               >About the Coffee</NuxtLink
+            >
+          </li>
+          <li class="nav-item">
+            <NuxtLink class="nav-item-link" to="/about-the-farmers"
+              >About the Farmers</NuxtLink
             >
           </li>
         </ul>
