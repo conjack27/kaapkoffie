@@ -28,7 +28,7 @@
             <NuxtLink class="nav-item-link" to="/retail">Retail</NuxtLink>
           </li>
           <li class="nav-item">
-            <NuxtLink class="nav-item-link" to="/hospitality-office"
+            <NuxtLink class="nav-item-link" to="/horeca"
               >Hospitality & Office</NuxtLink
             >
           </li>

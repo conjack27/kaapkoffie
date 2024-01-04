@@ -1,38 +1,100 @@
 .horeca {
   background-color: #f5f5f5;
-  padding: 0 10%;
+  padding: 20px 10%;
   position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  @media (min-width: 600px) {
+    padding-bottom: 200px;
+  }
 }
 
 .horeca__heading {
+  margin-top: 0;
   font-size: 2em;
   color: #000000;
+  margin-bottom: 360px;
 
   @media (min-width: 600px) {
+    padding-top: 20px;
+    margin-bottom: 0px;
     font-size: 3em;
+  }
+}
+
+.horeca__cta {
+  z-index: 2;
+  background-color: #000000;
+  text-align: center;
+  padding: 10px;
+  cursor: pointer;
+  font-size: 28px;
+
+  a {
+    font-size: 36px;
+    color: #ffffff;
+    text-decoration: none;
+
+    @media (min-width: 600px) {
+      margin-bottom: 0px;
+      font-size: 1em;
+    }
+
+    &:hover {
+      text-decoration: underline;
+    }
+  }
+
+  @media (min-width: 600px) {
+    width: 400px;
   }
 }
 
 .horeca__rope-left {
   position: absolute;
-  top: 0;
-  left: 0;
-  width: 400px;
-  height: 800px;
-}
-
-.horeca__koffie-zak {
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 400px;
-  height: 800px;
-}
-
-.horeca__rope-right {
-  position: absolute;
-  top: 0;
+  top: 550px;
   right: 0;
   width: 400px;
   height: 800px;
+  display: none;
+
+  @media (min-width: 600px) {
+    width: 400px;
+    height: 650px;
+    display: block;
+  }
+}
+
+.horeca__koffie-zak {
+  z-index: 1;
+  position: absolute;
+  top: 150px;
+  left: 0;
+  width: 400px;
+  height: 500px;
+
+  @media (min-width: 600px) {
+    top: 500px;
+    left: 250px;
+    width: 700px;
+    height: 800px;
+  }
+}
+
+.horeca__rope-right {
+  z-index: 1;
+  position: absolute;
+  top: 550px;
+  left: 0;
+  width: 400px;
+  height: 600px;
+  display: none;
+
+  @media (min-width: 600px) {
+    width: 400px;
+    height: 650px;
+    display: block;
+  }
 }
