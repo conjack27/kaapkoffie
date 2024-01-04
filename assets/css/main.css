@@ -13,6 +13,8 @@ body {
 
 .nav {
   background-color: #000000;
+  z-index: 2;
+
   @media (min-width: 600px) {
     display: flex;
     justify-content: center;
@@ -36,9 +38,13 @@ body {
 
 .nav-heading {
   font-weight: normal;
-  font-size: 2em;
+  font-size: 1.5em;
   margin: 0;
   padding: 15px;
+
+  @media (min-width: 600px) {
+    font-size: 2em;
+  }
 }
 
 .nav-blocker {
@@ -101,7 +107,7 @@ body {
 /* Home Page */
 
 .home {
-  margin: 0;
+  margin: 20px 0;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -155,7 +161,7 @@ body {
 }
 
 .home__image {
-  /* width: 100%; */
+  width: 100%;
 
   @media (min-width: 600px) {
     width: 50%;
@@ -184,6 +190,7 @@ body {
 .home__coffee-cup-image {
   width: 100%;
   max-width: 150px;
+  z-index: 1;
 }
 
 .home__coffee-cup-text {
@@ -217,15 +224,14 @@ body {
 .home__coffee-cup-text--1 {
   @media (min-width: 600px) {
     bottom: 20px;
-    left: 0px;
-    right: -50px;
+    left: 70px;
     width: 100px;
   }
 }
 
 .home__coffee-cup-text--2 {
   @media (min-width: 600px) {
-    top: 20px;
+    top: 70px;
     left: 0;
     right: 20px;
   }
@@ -233,14 +239,58 @@ body {
 
 .home__coffee-cup-text--3 {
   @media (min-width: 600px) {
-    bottom: 20px;
-    left: 20px;
+    bottom: 40px;
+    left: -60px;
+    width: 300px;
   }
 }
 
-Í .main-video {
+.banner-container {
+  white-space: nowrap;
+  overflow: hidden;
+  width: 100%;
+  margin: 10px 0;
+
+  @media screen and (min-width: 600px) {
+    margin: 20px 0;
+  }
+}
+
+.coffee-word {
+  display: inline-block;
+  font-size: 24px;
+  color: #333;
+  animation: moveWord 20s linear infinite;
+  text-transform: uppercase;
+}
+
+@keyframes moveWord {
+  0% {
+    transform: translateX(100%);
+  }
+
+  100% {
+    transform: translateX(-100%);
+  }
+}
+
+.video-container {
+  position: relative;
+  width: 100%;
+  overflow: hidden;
+  padding-top: 56.25%;
+  margin: 20px 0;
+
   @media (min-width: 600px) {
     width: 800px;
-    height: 600px;
+    margin: auto;
   }
+}
+
+.video-container iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
 }

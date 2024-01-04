@@ -41,5 +41,62 @@
         </div>
       </div>
     </div>
+    <div class="banner-container">
+      <div class="coffee-word" v-for="(coffee, index) in coffees" :key="index">
+        {{ coffee }} &nbsp;
+      </div>
+    </div>
+    <div class="video-container">
+      <iframe
+        width="800"
+        height="450"
+        src="https://www.youtube.com/embed/dQw4w9WgXcQ"
+        frameborder="0"
+        allowfullscreen
+      ></iframe>
+    </div>
   </div>
 </template>
+
+<script>
+  export default {
+    data() {
+      return {
+        coffees: [
+          'coffee ',
+          'coffee ',
+          'coffee ',
+          'coffee ',
+          'coffee ',
+          'coffee ',
+          'coffee ',
+          'coffee ',
+          'coffee ',
+          'coffee ',
+          'coffee ',
+          'coffee ',
+          'coffee ',
+          'coffee ',
+          'coffee ',
+          'coffee ',
+          'coffee ',
+          'coffee ',
+          'coffee ',
+          'coffee ',
+          'coffee ',
+          'coffee ',
+          'coffee ',
+          'coffee ',
+          'coffee ',
+          'coffee ',
+          'coffee ',
+          'coffee ',
+          'coffee ',
+          'coffee ',
+        ],
+      };
+    },
+    mounted() {},
+    methods: {},
+  };
+</script>
