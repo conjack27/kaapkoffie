@@ -1,7 +1,7 @@
 .hero {
   background-repeat: no-repeat;
   background-size: cover;
-  background-position: center;
+  background-position: center 70%;
   height: 500px;
   width: 100%;
   display: flex;
@@ -9,8 +9,17 @@
   justify-content: flex-end;
 }
 
-.hero--women {
-  background-image: url('https://taupe-mochi-8cdda8.netlify.app/images/squad.jpg');
+.hero--full-screen {
+  height: 100vh;
+  justify-content: flex-start;
+
+  .hero__heading {
+    margin: auto 0 20px 0;
+  }
+}
+
+.hero__section {
+  padding-bottom: 30px;
 }
 
 .hero__heading {
@@ -18,4 +27,40 @@
   font-size: 2.5rem;
   font-weight: 700;
   margin-left: 20px;
+}
+
+.hero--women {
+  background-image: url('https://taupe-mochi-8cdda8.netlify.app/images/squad.jpg');
+}
+
+.hero--journey {
+  background-image: url('https://taupe-mochi-8cdda8.netlify.app/images/boat.jpg');
+}
+
+.hero--us {
+  background-image: url('https://taupe-mochi-8cdda8.netlify.app/images/rope.jpg');
+}
+
+.hero--coffee {
+  background-image: url('https://taupe-mochi-8cdda8.netlify.app/images/my-hand.jpg');
+}
+
+.hero__notes {
+  max-width: 400px;
+  margin: 20px;
+}
+
+.hero__notes-heading {
+  margin-bottom: 0;
+}
+
+.hero__notes-text {
+  max-width: 300px;
+  margin-top: 0;
+}
+
+.hero__sub-heading {
+  margin-top: 30px;
+  font-weight: 700;
+  margin-bottom: 0;
 }
