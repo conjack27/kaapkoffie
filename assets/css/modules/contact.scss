@@ -10,7 +10,6 @@
     background-repeat: no-repeat;
     background-size: cover;
     background-position: right top;
-    background-image: url('https://taupe-mochi-8cdda8.netlify.app/images/cup-of-coffee.png');
   }
 }
 
@@ -57,15 +56,16 @@
   align-self: flex-end;
   margin-right: 20px;
   z-index: 2;
+  cursor: pointer;
 }
 
 .contact__image--mobile {
   z-index: 1;
   position: absolute;
-  width: 420px;
-  height: 540px;
-  bottom: -250px;
-  right: -60px;
+  width: auto;
+  height: 240px;
+  bottom: -200px;
+  right: -40px;
 
   @media (min-width: 600px) {
     display: none;
@@ -76,9 +76,9 @@
   z-index: 1;
   position: absolute;
   width: auto;
-  height: 1120px;
-  bottom: -580px;
-  right: -33px;
+  height: 450px;
+  bottom: -290px;
+  right: -20px;
   display: none;
 
   @media (min-width: 600px) {

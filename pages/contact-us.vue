@@ -3,7 +3,7 @@
     <div class="contact__form">
       <h1 class="contact__form-heading">Contact us</h1>
 
-      <form class="contact__form-fields" action="">
+      <form class="contact__form-fields" netlify action="">
         <div class="contact__form-section">
           <label class="contact__label" for="name">Name*:</label>
           <input class="contact__input" type="text" name="name" id="name" />
