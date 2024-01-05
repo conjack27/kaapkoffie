@@ -30,16 +30,15 @@
   text-align: center;
   padding: 10px;
   cursor: pointer;
-  font-size: 28px;
 
   a {
-    font-size: 36px;
+    font-size: 28px;
     color: #ffffff;
     text-decoration: none;
 
     @media (min-width: 600px) {
       margin-bottom: 0px;
-      font-size: 1em;
+      font-size: 36px;
     }
 
     &:hover {
@@ -70,16 +69,16 @@
 .horeca__koffie-zak {
   z-index: 1;
   position: absolute;
-  top: 150px;
-  left: 0;
-  width: 400px;
-  height: 500px;
+  top: 230px;
+  left: 150px;
+  width: 160px;
+  height: 320px;
 
   @media (min-width: 600px) {
-    top: 500px;
-    left: 250px;
-    width: 700px;
-    height: 800px;
+    top: 620px;
+    left: 400px;
+    width: 320px;
+    height: 560px;
   }
 }
 
