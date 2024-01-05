@@ -1,7 +1,7 @@
 <template>
   <div class="hero__section">
-    <div class="hero hero--journey">
-      <h1 class="hero__heading">About the Journey</h1>
+    <div class="hero hero--us">
+      <h1 class="hero__heading">About Us</h1>
     </div>
     <div class="text">
       <p class="text__paragraph">

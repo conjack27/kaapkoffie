@@ -51,17 +51,17 @@
   }
 }
 
-.horeca__rope-left {
+.horeca__ropes {
   position: absolute;
   top: 550px;
-  right: 0;
-  width: 400px;
-  height: 800px;
+  left: 0;
+  width: 100%;
+  height: 100%;
   display: none;
 
   @media (min-width: 600px) {
-    width: 400px;
-    height: 650px;
+    width: 100%;
+    height: 100%;
     display: block;
   }
 }
@@ -76,24 +76,8 @@
 
   @media (min-width: 600px) {
     top: 620px;
-    left: 400px;
+    left: 39%;
     width: 320px;
     height: 560px;
-  }
-}
-
-.horeca__rope-right {
-  z-index: 1;
-  position: absolute;
-  top: 550px;
-  left: 0;
-  width: 400px;
-  height: 600px;
-  display: none;
-
-  @media (min-width: 600px) {
-    width: 400px;
-    height: 650px;
-    display: block;
   }
 }

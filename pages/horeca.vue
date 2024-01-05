@@ -26,20 +26,16 @@
         </NuxtLink>
       </div>
     </div>
-    <img
-      :src="`${imageUrl}rope-left.png`"
-      alt="rope left"
-      class="horeca__rope-left"
-    />
+
     <img
       :src="`${imageUrl}koffie-zak.png`"
       alt="coffee sack"
       class="horeca__koffie-zak"
     />
     <img
-      :src="`${imageUrl}rope-right.png`"
-      alt="rope right"
-      class="horeca__rope-right"
+      :src="`${imageUrl}loops.png`"
+      alt="boat rope loops"
+      class="horeca__ropes"
     />
   </div>
 </template>
