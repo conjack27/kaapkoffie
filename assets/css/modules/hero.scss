@@ -1,66 +1,86 @@
+@import 'variables';
+
 .hero {
   background-repeat: no-repeat;
   background-size: cover;
-  background-position: center 70%;
+  background-position: center 71%;
   height: 500px;
   width: 100%;
   display: flex;
   flex-direction: column;
   justify-content: flex-end;
-}
 
-.hero--full-screen {
-  height: 100vh;
-  justify-content: flex-start;
+  &--full-screen {
+    height: 95vh;
+    justify-content: flex-start;
 
-  .hero__heading {
-    margin: auto 0 20px 0;
+    .hero__heading {
+      margin: auto 0 20px 0;
+    }
   }
-}
 
-.hero__section {
-  padding-bottom: 30px;
-}
+  &__section {
+    padding-bottom: 30px;
+  }
 
-.hero__heading {
-  color: #fff;
-  font-size: 2.5rem;
-  font-weight: 700;
-  margin-left: 20px;
-}
+  &__heading {
+    color: #fff;
+    font-size: 2.5rem;
+    font-weight: 700;
+    margin-left: 20px;
 
-.hero--women {
-  background-image: url('https://taupe-mochi-8cdda8.netlify.app/images/squad.jpg');
-}
+    &--1 {
+      color: $black-font;
+      font: $heading;
+      margin-left: 20px;
+    }
+  }
 
-.hero--journey {
-  background-image: url('https://taupe-mochi-8cdda8.netlify.app/images/boat.jpg');
-}
+  &--women {
+    background-image: url('https://taupe-mochi-8cdda8.netlify.app/images/squad.jpg');
+  }
 
-.hero--us {
-  background-image: url('https://taupe-mochi-8cdda8.netlify.app/images/rope.jpg');
-}
+  &--journey {
+    background-image: url('https://taupe-mochi-8cdda8.netlify.app/images/boat.jpg');
+  }
 
-.hero--coffee {
-  background-image: url('https://taupe-mochi-8cdda8.netlify.app/images/my-hand.jpg');
-}
+  &--us {
+    background-image: url('https://taupe-mochi-8cdda8.netlify.app/images/rope.jpg');
+  }
 
-.hero__notes {
-  max-width: 400px;
-  margin: 20px;
-}
+  &--coffee {
+    background-image: url('https://taupe-mochi-8cdda8.netlify.app/images/my-hand.jpg');
+  }
 
-.hero__notes-heading {
-  margin-bottom: 0;
-}
+  &--coffee-sacks {
+    background-image: url('https://taupe-mochi-8cdda8.netlify.app/images/2-zaks.jpg');
+  }
 
-.hero__notes-text {
-  max-width: 300px;
-  margin-top: 0;
-}
+  &__notes {
+    max-width: 400px;
+    margin: 20px;
 
-.hero__sub-heading {
-  margin-top: 30px;
-  font-weight: 700;
-  margin-bottom: 0;
+    &-heading {
+      margin-bottom: 0;
+    }
+
+    &-text {
+      max-width: 300px;
+      margin-top: 0;
+    }
+  }
+
+  &__sub-heading {
+    margin-top: 30px;
+    font-weight: 700;
+    margin-bottom: 0;
+  }
+
+  &__heading-container {
+    margin-top: 350px;
+    margin-left: 20px;
+    display: flex;
+    flex-direction: column;
+    width: 30%;
+  }
 }

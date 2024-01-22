@@ -1,0 +1,22 @@
+@import 'variables';
+
+.btn {
+  display: inline-block;
+  padding: 10px 20px;
+  font-size: 24px;
+  text-align: center;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.btn__primary {
+  background-color: rgba($white-font, 0.8);
+  color: $black-font;
+  border: none;
+  font: $button;
+
+  &:hover {
+    background-color: rgba($white-font, 1);
+    cursor: pointer;
+  }
+}

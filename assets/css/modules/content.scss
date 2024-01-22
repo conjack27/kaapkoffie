@@ -1,0 +1,30 @@
+.content {
+  // Base styles for the content block
+
+  &__header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 0;
+    flex-direction: column;
+  }
+
+  &__heading {
+    font: $heading;
+  }
+
+  &__body {
+    // Styles for the body element within the content block
+  }
+
+  &__footer {
+    // Styles for the footer element within the content block
+  }
+
+  @media (max-width: 600px) {
+    // Media query styles for mobile devices at 600px
+    .content {
+      // Mobile-specific styles for the content block
+    }
+  }
+}

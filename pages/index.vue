@@ -1,9 +1,5 @@
 <template>
   <div class="home">
-    <div class="home__heading-container">
-      <h1 class="home__heading">The cleanest coffee on the planet</h1>
-    </div>
-    <div class="horizontal-line"></div>
     <div class="home__image-section">
       <img
         class="home__image"
@@ -26,7 +22,7 @@
             alt="Coffee beans"
           />
           <p class="home__coffee-cup-text home__coffee-cup-text--2">
-            Follow the bean
+            The route
           </p>
         </div>
         <div class="home__coffee-cup">
