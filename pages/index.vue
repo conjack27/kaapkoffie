@@ -1,5 +1,5 @@
 <template>
-  <div class="home">
+  <div class="container home">
     <div class="home__image-section">
       <img
         class="home__image"

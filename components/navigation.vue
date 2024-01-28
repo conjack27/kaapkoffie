@@ -117,7 +117,7 @@
               <NuxtLink class="nav-item-link" to="/about-us">Us</NuxtLink>
             </li>
             <li class="nav-item">
-              <NuxtLink class="nav-item-link" to="/about-the-farmers"
+              <NuxtLink class="nav-item-link" to="/about-the-women"
                 >The women</NuxtLink
               >
             </li>
