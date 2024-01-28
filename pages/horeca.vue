@@ -2,6 +2,13 @@
   <div class="content">
     <div class="hero hero--half-hero">
       <div class="hero__section">
+        <img
+          class="hero__section-image"
+          src="/images/boat.jpg"
+          alt="image of boat"
+        />
+      </div>
+      <div class="hero__section">
         <h1 class="hero__heading">
           Want to drink our coffee in your office, hotel or restaurant?
         </h1>
