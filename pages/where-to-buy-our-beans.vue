@@ -5,7 +5,9 @@
         <h1 class="hero__heading hero__heading--1">
           Do you want to try our coffee at home?
         </h1>
-        <button class="btn btn__primary">See where you can buy us</button>
+        <button class="btn btn__primary" @click="scrollToMap">
+          See where you can buy us
+        </button>
       </div>
     </div>
     <div class="content__page">
@@ -16,11 +18,25 @@
         >
       </div>
     </div>
+    <div class="content__map-container" ref="mapElement">
+      <div class="content__map"></div>
+    </div>
   </div>
 </template>
 
 <script>
   export default {
     mounted() {},
+    methods: {
+      scrollToMap() {
+        const mapElement = this.$refs.mapElement;
+        const offsetTop = mapElement.offsetTop;
+
+        window.scrollTo({
+          top: offsetTop,
+          behavior: 'smooth',
+        });
+      },
+    },
   };
 </script>

@@ -34,7 +34,7 @@
               >
             </li>
             <li class="nav-item">
-              <NuxtLink class="nav-item-link" to="/horeca"
+              <NuxtLink class="nav-item-link" to="/where-to-try-our-beans"
                 >Where to try our beans</NuxtLink
               >
             </li>
