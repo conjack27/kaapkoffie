@@ -10,6 +10,11 @@
   flex-direction: column;
   justify-content: flex-end;
 
+  &--half-hero {
+    @media (min-width: 600px) {
+    }
+  }
+
   &--full-screen {
     height: 95vh;
     justify-content: flex-start;
@@ -33,6 +38,9 @@
       color: $black-font;
       font: $heading;
       margin-left: 20px;
+
+      @media (min-width: 600px) {
+      }
     }
   }
 
@@ -77,10 +85,22 @@
   }
 
   &__heading-container {
-    margin-top: 350px;
+    margin-top: 20px;
     margin-left: 20px;
     display: flex;
     flex-direction: column;
-    width: 30%;
+    width: 90%;
+
+    @media (min-width: 600px) {
+      margin-top: 350px;
+      width: 30%;
+    }
+
+    .btn {
+      margin-top: 50vh;
+      @media (min-width: 600px) {
+        margin-top: 0;
+      }
+    }
   }
 }

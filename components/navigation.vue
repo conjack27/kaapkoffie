@@ -64,7 +64,7 @@
             "
           >
             <li class="nav-item">
-              <NuxtLink class="nav-item-link" to="/about-the-journey"
+              <NuxtLink class="nav-item-link" to="/horeca"
                 >Get our beans at the office</NuxtLink
               >
             </li>
