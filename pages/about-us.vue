@@ -1,7 +1,15 @@
 <template>
   <div class="hero__section">
-    <div class="hero hero--us">
-      <h1 class="hero__heading">About Us</h1>
+    <div class="hero hero--full-screen hero--us">
+      <div class="hero__heading-container">
+        <h1 class="hero__heading">About Us</h1>
+        <blockquote class="hero__quote">
+          "We believe in sustainable maritime transportation."
+        </blockquote>
+        <blockquote class="hero__quote">
+          "Together, we can make a difference."
+        </blockquote>
+      </div>
     </div>
     <div class="text">
       <p class="text__paragraph">

@@ -1,13 +1,9 @@
 <template>
   <div>
-    
+    <h1>sailing journey</h1>
   </div>
 </template>
 
-<script lang="ts" setup>
+<script lang="ts" setup></script>
 
-</script>
-
-<style>
-
-</style>
+<style></style>

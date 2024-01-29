@@ -163,7 +163,7 @@
               >
             </li>
             <li class="nav-item">
-              <NuxtLink class="nav-item-link" to="/about-the-coffee"
+              <NuxtLink class="nav-item-link" to="/work-with-us"
                 >Work with us</NuxtLink
               >
             </li>

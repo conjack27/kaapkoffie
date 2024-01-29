@@ -103,14 +103,11 @@
         });
       },
       toggleMenu() {
-        console.log('toggle menu', this.isMenuExpanded);
         this.isMenuExpanded = !this.isMenuExpanded;
-        console.log('menu toggled', this.isMenuExpanded);
 
         this.closeSubMenus();
       },
       toggleSubMenu(index) {
-        console.log(index, this.menuItems[index].showSubMenu);
         if (index === 2) {
           this.$router.push('/sailing-journey');
           this.isMenuExpanded = false;
