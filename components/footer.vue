@@ -1,0 +1,89 @@
+<template>
+  <footer class="footer">
+    <div class="footer__section">
+      <h3 class="footer__section-title">Info</h3>
+      <ul class="footer__section-list">
+        <li class="footer__section-item">Address: 123 Main St, City</li>
+        <li class="footer__section-item">Phone: 123-456-7890</li>
+        <li class="footer__section-item">Business Number: 123456789</li>
+      </ul>
+    </div>
+    <div class="footer__section">
+      <h3 class="footer__section-title">Contact</h3>
+      <ul class="footer__section-list">
+        <li class="footer__section-item">WhatsApp: 123-456-7890</li>
+        <li class="footer__section-item">Email: example@example.com</li>
+        <li class="footer__section-item">Instagram: @example</li>
+      </ul>
+      <div class="footer__social-icons">
+        <!-- Add social icons with links here -->
+      </div>
+    </div>
+    <div class="footer__section">
+      <h3 class="footer__section-title">Support</h3>
+      <ul class="footer__section-list">
+        <li class="footer__section-item"><a href="/faq">FAQ</a></li>
+        <li class="footer__section-item">
+          <a href="/work-at-kaap-koffie">Work at Kaap Koffie</a>
+        </li>
+      </ul>
+    </div>
+    <div class="footer__section">
+      <h3 class="footer__section-title">Partnerships</h3>
+      <ul class="footer__section-list">
+        <li class="footer__section-item">
+          <a href="https://partner1.com">Partner 1</a>
+        </li>
+        <li class="footer__section-item">
+          <a href="https://partner2.com">Partner 2</a>
+        </li>
+        <li class="footer__section-item">
+          <a href="https://partner3.com">Partner 3</a>
+        </li>
+        <li class="footer__section-item">
+          <a href="https://partner4.com">Partner 4</a>
+        </li>
+      </ul>
+    </div>
+  </footer>
+</template>
+
+<script>
+  export default {
+    name: 'Footer',
+  };
+</script>
+
+<style lang="scss">
+  .footer {
+    background-color: #3a6d9c;
+    color: #ffffff;
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+  }
+
+  .footer__section {
+    flex: 1;
+    margin-right: 20px;
+  }
+
+  .footer__section-title {
+    font-size: 18px;
+    margin-bottom: 10px;
+  }
+
+  .footer__section-list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+
+  .footer__section-item {
+    margin-bottom: 5px;
+  }
+
+  .footer__social-icons {
+    /* Add styling for social icons here */
+  }
+</style>
