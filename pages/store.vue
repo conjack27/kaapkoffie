@@ -1,28 +1,56 @@
 <template>
-  <div class="content">
-    <div class="hero hero--half-hero">
-      <div class="hero__section">
-        <img
-          class="hero__section-image"
-          src="/images/boat.jpg"
-          alt="image of boat"
-        />
-      </div>
-      <div class="hero__section">
-        <h1 class="hero__heading">
-          Want to drink our coffee in your office, hotel or restaurant?
-        </h1>
-
-        <p class="text__paragraph">
-          lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-          eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad
-          minim veniam, quis nostrud exercitation ullamco laboris nisi ut
-          aliquip ex e
-        </p>
-        <NuxtLink to="/contact-us" class="btn btn__primary"
-          >Contact us to find out about the possibilities</NuxtLink
-        >
-      </div>
+  <div class="contact">
+    <div class="contact__form">
+      <h1 class="contact__form-heading">Contact us</h1>
+      <p class="contact__form-text">
+        We are very excited that you want Kaap Koffie in your store! If you send
+        some information through our contact form, we will reach out to you
+        shortly.
+      </p>
+      <form class="contact__form-fields" data-netlify="true" action="/thanks">
+        <div class="contact__form-section">
+          <label class="contact__label" for="name">Name*:</label>
+          <input class="contact__input" type="text" name="name" id="name" />
+        </div>
+        <div class="contact__form-section">
+          <label class="contact__label" for="company">Company: </label>
+          <input
+            class="contact__input"
+            type="text"
+            name="company-name"
+            id="company"
+          />
+        </div>
+        <div class="contact__form-section">
+          <label class="contact__label" for="email">Email*: </label>
+          <input class="contact__input" type="email" name="email" id="email" />
+        </div>
+        <div class="contact__form-section">
+          <label class="contact__label" for="message">Message*: </label>
+        </div>
+        <div class="contact__form-section">
+          <textarea
+            class="contact__input contact__input--big"
+            name="message"
+            id="message"
+          ></textarea>
+        </div>
+        <input class="contact__form-button" type="submit" value="Send" />
+      </form>
+      <img
+        class="contact__image--mobile"
+        src="/images/cup-of-coffee.png"
+        alt="imageAlt"
+      />
+    </div>
+    <img
+      class="contact__image--desktop"
+      src="/images/cup-of-coffee.png"
+      :alt="imageAlt"
+    />
+    <div class="contact__footer">
+      <div class="contact__address"></div>
+      <div class="contact__details"></div>
     </div>
   </div>
 </template>
@@ -31,8 +59,12 @@
   export default {
     data() {
       return {
-        imageUrl: 'https://taupe-mochi-8cdda8.netlify.app/',
+        imageSrc: 'https://taupe-mochi-8cdda8.netlify.app/',
+        imageAlt: 'Person holding a cup of coffee',
       };
     },
+    mounted() {},
   };
 </script>
+
+<style lang="scss"></style>

@@ -27,7 +27,7 @@
         <h2 class="text-asset__heading">{{ title }}</h2>
         <p class="text-asset__text">{{ text }}</p>
       </div>
-      <div class="image-container">
+      <div class="text-asset__image-container">
         <img class="text-asset__image" :src="imageSrc" :alt="imageAlt" />
       </div>
     </div>
@@ -49,45 +49,4 @@
   };
 </script>
 
-<style lang="scss">
-  .text-asset {
-    background-color: #f9f8f9;
-    display: flex;
-    flex-direction: column;
-
-    @media (min-width: 600px) {
-      flex-direction: row;
-    }
-  }
-
-  .text-asset__text-container {
-    order: 2;
-    padding: 15px;
-
-    @media (min-width: 600px) {
-      order: 1;
-      flex: 1;
-    }
-  }
-
-  .image-container {
-    padding-top: 15px;
-    order: 1;
-    width: 100%;
-    height: auto;
-
-    @media (min-width: 600px) {
-      order: 2;
-      flex: 1;
-    }
-  }
-
-  .text-asset__image {
-    width: 100%;
-    height: auto;
-  }
-
-  .text-asset__heading {
-    margin: 0;
-  }
-</style>
+<style lang="scss"></style>
