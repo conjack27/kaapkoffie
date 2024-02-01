@@ -1,9 +1,6 @@
 <template>
   <div class="content">
-    <div
-      class="hero hero--team hero--standard"
-      style="background-image: url('/images/team.jpg')"
-    >
+    <div class="hero hero--team hero--standard">
       <h1 class="hero__heading">Want to be a part of our team?</h1>
     </div>
     <div class="content__page content__btns">
@@ -17,17 +14,6 @@
   </div>
 </template>
 
-<script>
-  export default {
-    data() {
-      return {
-        imageSrc: 'https://taupe-mochi-8cdda8.netlify.app/',
+<script lang="ts" setup></script>
 
-        imageAlt: 'Two sailors on a boat holding a bag of coffee beans',
-      };
-    },
-    mounted() {},
-  };
-</script>
-
-<style lang="scss"></style>
+<style></style>

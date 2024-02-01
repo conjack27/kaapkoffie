@@ -22,9 +22,11 @@
     <div class="footer__section">
       <h3 class="footer__section-title">Support</h3>
       <ul class="footer__section-list">
-        <li class="footer__section-item"><a href="/faq">FAQ</a></li>
         <li class="footer__section-item">
-          <NuxtLink class="footer__section-link" to="/work-at-kaap-koffie"
+          <NuxtLink class="footer__section-link" to="/faq">FAQ</NuxtLink>
+        </li>
+        <li class="footer__section-item">
+          <NuxtLink class="footer__section-link" to="/work-with-us"
             >Work at Kaap Koffie</NuxtLink
           >
         </li>
@@ -34,16 +36,18 @@
       <h3 class="footer__section-title">Partnerships</h3>
       <ul class="footer__section-list">
         <li class="footer__section-item">
-          <a href="https://partner1.com">Partner 1</a>
+          <NuxtLink class="footer__section-link" to="https://kaapkargo.com/"
+            >Kaap kargo</NuxtLink
+          >
         </li>
         <li class="footer__section-item">
-          <a href="https://partner2.com">Partner 2</a>
+          <NuxtLink class="footer__section-link">Kaap de Groene hoop</NuxtLink>
         </li>
         <li class="footer__section-item">
-          <a href="https://partner3.com">Partner 3</a>
+          <NuxtLink class="footer__section-link">DID it </NuxtLink>
         </li>
         <li class="footer__section-item">
-          <a href="https://partner4.com">Partner 4</a>
+          <NuxtLink class="footer__section-link">IDOrganic</NuxtLink>
         </li>
       </ul>
     </div>

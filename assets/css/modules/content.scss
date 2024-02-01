@@ -2,6 +2,11 @@
 
 .content {
   min-height: 100vh;
+  // padding-top: 65px;
+
+  @media (min-width: 600px) {
+    padding-top: 0;
+  }
 
   &--dark {
     padding: 20px;
@@ -85,9 +90,13 @@
 
   &__block {
     margin: 30px 0;
-    height: 200px;
+    height: 260px;
     width: 100%;
     cursor: pointer;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
 
     &:hover {
       opacity: 0.8;
@@ -103,7 +112,7 @@
   }
 
   &__block-img {
-    height: 95%;
+    height: 240px;
     width: 100%;
   }
 

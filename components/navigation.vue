@@ -6,6 +6,7 @@
       :class="{
         'nav-menu--visible': navMenuIsVisible,
         'nav-menu--visible--about': aboutMenuIsVisible,
+        'nav-menu--visible--business': businessMenuIsVisible,
       }"
     >
       <div class="nav__section nav__section--left">
@@ -51,7 +52,7 @@
               (businessMenuIsVisible = false), (navMenuIsVisible = false)
             "
           >
-            Businesses & Bars
+            Get our beans
           </h2>
           <ul
             class="nav-list"
@@ -64,14 +65,19 @@
             "
           >
             <li class="nav-item">
-              <NuxtLink class="nav-item-link" to="/horeca"
-                >Get our beans at the office</NuxtLink
+              <NuxtLink class="nav-item-link" to="/office"
+                >At the office</NuxtLink
               >
             </li>
             <li class="nav-item">
-              <NuxtLink class="nav-item-link" to="/about-the-coffee"
-                >Sell our beans</NuxtLink
+              <NuxtLink class="nav-item-link" to="/horeca"
+                >In your cafe or hotel</NuxtLink
               >
+            </li>
+            <li class="nav-item">
+              <NuxtLink class="nav-item-link" to="/store"
+                >For your shop
+              </NuxtLink>
             </li>
           </ul>
         </div>

@@ -59,11 +59,12 @@
             ],
           },
           {
-            title: 'Businesses & Bars',
+            title: 'Businesses',
             showSubMenu: false,
             subMenu: [
-              { title: 'Get our beans at the office', link: 'horeca' },
-              { title: 'Sell our beans', link: '/' },
+              { title: 'At the office', link: 'office' },
+              { title: 'In your cafe or hotel', link: 'horeca' },
+              { title: 'For your shop', link: 'store' },
             ],
           },
           {

@@ -1,6 +1,9 @@
 <template>
   <div class="hero__section">
-    <div class="hero hero--journey">
+    <div
+      class="hero hero--journey"
+      style="background-image: url('/images/boat.jpg')"
+    >
       <h1 class="hero__heading">About the Journey</h1>
     </div>
     <div class="text">

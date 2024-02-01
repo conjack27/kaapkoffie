@@ -3,23 +3,23 @@
     <div class="home__image-section">
       <img
         class="home__image"
-        src="https://taupe-mochi-8cdda8.netlify.app/images/beans-boat.jpg"
-        alt="Coffee beans"
+        src="/images/beans-boat.jpg"
+        :alt="imageAltBoat"
       />
       <div class="home__coffee-cups">
         <div class="home__coffee-cup">
           <img
             class="home__coffee-cup-image"
-            src="https://taupe-mochi-8cdda8.netlify.app/images/koffiekopje.png"
-            alt="Coffee beans"
+            src="/images/koffiekopje.png"
+            :alt="imageAltCoffee"
           />
           <p class="home__coffee-cup-text home__coffee-cup-text--1">Try now</p>
         </div>
         <div class="home__coffee-cup">
           <img
             class="home__coffee-cup-image"
-            src="https://taupe-mochi-8cdda8.netlify.app/images/koffiekopje.png"
-            alt="Coffee beans"
+            src="/images/koffiekopje.png"
+            :alt="imageAltCoffee"
           />
           <p class="home__coffee-cup-text home__coffee-cup-text--2">
             The route
@@ -28,8 +28,8 @@
         <div class="home__coffee-cup">
           <img
             class="home__coffee-cup-image"
-            src="https://taupe-mochi-8cdda8.netlify.app/images/koffiekopje.png"
-            alt="Coffee beans"
+            src="/images/koffiekopje.png"
+            :alt="imageAltCoffee"
           />
           <p class="home__coffee-cup-text home__coffee-cup-text--3">
             Tasting profile
@@ -58,6 +58,9 @@
   export default {
     data() {
       return {
+        imageSrc: 'https://taupe-mochi-8cdda8.netlify.app/',
+        imageAltCoffee: 'Cup of coffee',
+        imageAltBoat: 'Sack of coffee on a boat',
         coffees: [
           'coffee ',
           'coffee ',

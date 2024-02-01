@@ -1,6 +1,9 @@
 <template>
   <div>
-    <div class="hero hero--women">
+    <div
+      class="hero hero--women"
+      style="background-image: url('/images/squad.jpg')"
+    >
       <h1 class="hero__heading">Meet the women behind the beans</h1>
     </div>
     <div class="text">

@@ -35,14 +35,14 @@
       </form>
       <img
         class="contact__image--mobile"
-        src="https://taupe-mochi-8cdda8.netlify.app/images/cup-of-coffee.png"
-        alt="person holding a cup of coffee"
+        src="/images/cup-of-coffee.png"
+        alt="imageAlt"
       />
     </div>
     <img
       class="contact__image--desktop"
-      src="https://taupe-mochi-8cdda8.netlify.app/images/cup-of-coffee.png"
-      alt="person holding a cup of coffee"
+      src="/images/cup-of-coffee.png"
+      :alt="imageAlt"
     />
     <div class="contact__footer">
       <div class="contact__address"></div>
@@ -50,3 +50,17 @@
     </div>
   </div>
 </template>
+
+<script>
+  export default {
+    data() {
+      return {
+        imageSrc: 'https://taupe-mochi-8cdda8.netlify.app/',
+        imageAlt: 'Person holding a cup of coffee',
+      };
+    },
+    mounted() {},
+  };
+</script>
+
+<style lang="scss"></style>

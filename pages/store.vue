@@ -1,18 +1,19 @@
 <template>
   <div class="content">
     <div class="hero hero--half-hero">
-      <div class="hero__section hero__section--image">
-        <div
+      <div class="hero__section">
+        <img
           class="hero__section-image"
-          style="background-image: url('/images/my-hand.jpg')"
-        ></div>
+          src="/images/boat.jpg"
+          alt="image of boat"
+        />
       </div>
-      <div class="hero__section hero__section--text">
+      <div class="hero__section">
         <h1 class="hero__heading">
           Want to drink our coffee in your office, hotel or restaurant?
         </h1>
 
-        <p class="hero__section-paragraph">
+        <p class="text__paragraph">
           lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
           eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad
           minim veniam, quis nostrud exercitation ullamco laboris nisi ut

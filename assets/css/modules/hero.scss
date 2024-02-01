@@ -14,34 +14,75 @@
   }
 
   &--half-hero {
-    @media (min-width: 600px) {
+    .hero__heading {
+      color: $black-font;
+      font-size: 32px;
+      margin: 0;
     }
 
     .hero__section-image {
       max-width: 100%;
-      height: auto;
+      height: 500px;
       width: 100%;
+      background-repeat: no-repeat;
+      background-size: cover;
+      background-position: center 71%;
+    }
+
+    .hero__section--text {
+      padding: 20px;
+      font-size: 18px;
     }
 
     .btn {
       margin: 0 20px;
     }
+
+    @media (min-width: 600px) {
+      flex-direction: row;
+      height: 95vh;
+
+      .hero__section--image {
+        order: 2;
+        flex: 0 1 50%;
+        height: 100%;
+      }
+
+      .hero__section--text {
+        order: 1;
+        flex: 0 1 50%;
+      }
+
+      .hero__heading {
+        font: $heading;
+      }
+
+      .hero__section--text {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+      }
+
+      .hero__section-paragraph {
+        padding-left: 20px;
+      }
+
+      .hero__section-image {
+        height: 100%;
+      }
+    }
   }
 
   &--full-screen {
-    height: 95vh;
+    height: 88vh;
     justify-content: flex-end;
+
+    @media (min-width: 600px) {
+      height: 95vh;
+    }
 
     .hero__heading {
       margin: auto 0 20px 0;
-    }
-
-    .hero__heading-container {
-      margin-bottom: 100px;
-
-      @media (min-width: 600px) {
-        margin-bottom: 0;
-      }
     }
 
     @media (min-width: 600px) {
@@ -86,15 +127,15 @@
   }
 
   &--women {
-    background-image: url('https://taupe-mochi-8cdda8.netlify.app/images/squad.jpg');
+    // background-image: url('https://taupe-mochi-8cdda8.netlify.app/images/squad.jpg');
   }
 
   &--journey {
-    background-image: url('https://taupe-mochi-8cdda8.netlify.app/images/boat.jpg');
+    // background-image: url('https://taupe-mochi-8cdda8.netlify.app/images/boat.jpg');
   }
 
   &--us {
-    background-image: url('https://taupe-mochi-8cdda8.netlify.app/images/rope.jpg');
+    // background-image: url('https://taupe-mochi-8cdda8.netlify.app/images/rope.jpg');
     background-position: 30%;
 
     @media (min-width: 600px) {
@@ -103,11 +144,17 @@
   }
 
   &--coffee {
-    background-image: url('https://taupe-mochi-8cdda8.netlify.app/images/my-hand.jpg');
+    // background-image: url('https://taupe-mochi-8cdda8.netlify.app/images/my-hand.jpg');
   }
 
   &--coffee-sacks {
-    background-image: url('https://taupe-mochi-8cdda8.netlify.app/images/2-zaks.jpg');
+    justify-content: flex-start;
+    // margin-top: 48vh;
+
+    .btn {
+      margin-top: 45vh;
+    }
+    // background-image: url('https://taupe-mochi-8cdda8.netlify.app/images/2-zaks.jpg');
   }
 
   &__notes {
@@ -143,7 +190,6 @@
     }
 
     .btn {
-      margin-top: 50vh;
       @media (min-width: 600px) {
         margin-top: 0;
       }

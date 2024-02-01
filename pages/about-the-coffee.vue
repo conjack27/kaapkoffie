@@ -1,6 +1,9 @@
 <template>
   <div class="hero__section">
-    <div class="hero hero--coffee hero--full-screen">
+    <div
+      class="hero hero--coffee hero--full-screen"
+      style="background-image: url('/images/my-hand.jpg')"
+    >
       <div class="hero__notes">
         <h2 class="hero__sub-heading">About the Coffee</h2>
         <h4 class="hero__notes-heading">Roast profile</h4>

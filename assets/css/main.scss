@@ -28,4 +28,10 @@ body {
   display: flex;
   flex-direction: column;
   justify-content: center;
+  min-height: 600px;
+  padding-bottom: 20px;
+
+  @media (min-width: 600px) {
+    min-height: 900px;
+  }
 }

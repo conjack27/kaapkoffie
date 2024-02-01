@@ -37,6 +37,10 @@
     &.nav-menu--visible--about {
       height: 250px;
     }
+
+    &.nav-menu--visible--business {
+      height: 250px;
+    }
   }
 }
 
@@ -170,7 +174,7 @@
     height: 160px;
 
     @media (min-width: 600px) {
-      height: 100px;
+      height: 150px;
     }
 
     .nav-item {
