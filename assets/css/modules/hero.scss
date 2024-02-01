@@ -131,7 +131,20 @@
   }
 
   &--women {
-    // background-image: url('https://taupe-mochi-8cdda8.netlify.app/images/squad.jpg');
+    height: 250px;
+
+    .hero__heading {
+      display: none;
+    }
+
+    @media (min-width: 600px) {
+      height: 700px;
+      justify-content: flex-end;
+
+      .hero__heading {
+        display: block;
+      }
+    }
   }
 
   &--journey {

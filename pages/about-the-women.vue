@@ -1,11 +1,15 @@
 <template>
-  <div>
+  <div class="content">
     <div
       class="hero hero--women"
       style="background-image: url('/images/squad.jpg')"
     >
       <h1 class="hero__heading">Meet the women behind the beans</h1>
     </div>
+    <h1 class="content__heading content__heading--women">
+      Meet the women behind the beans
+    </h1>
+
     <div class="text">
       <p class="text__paragraph">
         We work directly with a cooperative of female farmers called Acro Nevada

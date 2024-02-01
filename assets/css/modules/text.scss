@@ -3,12 +3,8 @@
 }
 
 .text__paragraph {
-  font-size: 1.2rem;
-  line-height: 1.5;
-  margin-bottom: 1.5rem;
-  padding: 10px 20px;
+  font-size: 18px;
 
   @media (min-width: 600px) {
-    padding: 50px;
   }
 }
