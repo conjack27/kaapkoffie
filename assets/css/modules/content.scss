@@ -82,14 +82,20 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    flex-direction: row;
+    flex-direction: column;
 
     @media (min-width: 600px) {
+      flex-direction: row;
       justify-content: center;
     }
 
     .btn {
+      width: 300px;
+      margin-top: 20px;
+      padding: 20px;
+
       @media (min-width: 600px) {
+        width: auto;
         font-size: 44px;
         padding: 15px 100px;
         margin: 0 20px;

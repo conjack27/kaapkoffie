@@ -76,6 +76,7 @@
   .footer__section {
     flex: 1;
     margin-right: 20px;
+    z-index: 1000;
   }
 
   .footer__section-title {

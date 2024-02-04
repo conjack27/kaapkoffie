@@ -1,7 +1,7 @@
 <template>
   <div class="content">
     <div
-      class="hero hero--team hero--standard"
+      class="hero hero--team hero--work"
       style="background-image: url('/images/team.jpg')"
     >
       <h1 class="hero__heading">Want to be a part of our team?</h1>

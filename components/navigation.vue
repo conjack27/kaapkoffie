@@ -164,7 +164,7 @@
             :class="{ 'contact-visible': contactMenuIsVisible }"
           >
             <li class="nav-item">
-              <NuxtLink class="nav-item-link" to="/about-the-journey"
+              <NuxtLink class="nav-item-link" to="/contact-us"
                 >Contact us</NuxtLink
               >
             </li>
