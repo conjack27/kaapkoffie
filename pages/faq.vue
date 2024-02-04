@@ -61,6 +61,7 @@
         </p>
       </div>
     </div>
+    <div class="faq__coffee-beans faq__coffee-beans--bottom"></div>
   </div>
 </template>
 
@@ -99,19 +100,40 @@
 
     &__coffee-beans {
       width: 600px;
-      height: 500px;
-      top: 0;
       background-image: url('/images/koffie.png');
       background-repeat: no-repeat;
-      background-size: cover;
+      background-size: contain;
       background-position: center center;
       margin-bottom: 20px;
       position: absolute;
-      z-index: 999;
+      z-index: 1000;
 
       &--top {
         height: 200px;
-        margin-bottom: 40px;
+        top: 0px;
+        left: 0px;
+        @media (min-width: 600px) {
+          height: 300px;
+          top: 296px;
+          left: unset;
+          right: -100px;
+          transform: rotate(90deg);
+        }
+      }
+
+      &--bottom {
+        height: 150px;
+        bottom: -100px;
+        right: 0px;
+        transform: rotate(180deg);
+
+        @media (min-width: 600px) {
+          height: 300px;
+          bottom: -10px;
+          right: unset;
+          left: -170px;
+          transform: rotate(90deg);
+        }
       }
     }
   }

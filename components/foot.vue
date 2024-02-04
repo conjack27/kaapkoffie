@@ -76,6 +76,7 @@
     flex-direction: column;
     justify-content: space-between;
     padding: 20px;
+    z-index: 1000;
 
     @media (min-width: 600px) {
       flex-direction: row;
@@ -88,7 +89,7 @@
   .footer__section {
     flex: 1;
     margin-right: 20px;
-    z-index: 1000;
+    z-index: 1001;
   }
 
   .footer__section-title {

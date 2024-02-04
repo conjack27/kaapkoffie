@@ -7,15 +7,15 @@
         :alt="imageAltBoat"
       />
       <div class="home__coffee-cups">
-        <div class="home__coffee-cup">
+        <NuxtLink class="home__coffee-cup">
           <img
             class="home__coffee-cup-image"
             src="/images/koffiekopje.png"
             :alt="imageAltCoffee"
           />
           <p class="home__coffee-cup-text home__coffee-cup-text--1">Try now</p>
-        </div>
-        <div class="home__coffee-cup">
+        </NuxtLink>
+        <NuxtLink class="home__coffee-cup">
           <img
             class="home__coffee-cup-image"
             src="/images/koffiekopje.png"
@@ -24,8 +24,8 @@
           <p class="home__coffee-cup-text home__coffee-cup-text--2">
             The route
           </p>
-        </div>
-        <div class="home__coffee-cup">
+        </NuxtLink>
+        <NuxtLink class="home__coffee-cup">
           <img
             class="home__coffee-cup-image"
             src="/images/koffiekopje.png"
@@ -34,7 +34,7 @@
           <p class="home__coffee-cup-text home__coffee-cup-text--3">
             Tasting profile
           </p>
-        </div>
+        </NuxtLink>
       </div>
     </div>
     <div class="banner-container">
