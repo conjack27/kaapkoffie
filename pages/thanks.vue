@@ -1,7 +1,6 @@
 <template>
-  <div>
-    <h1>Thanks for your submission!</h1>
-    <p>We appreciate your feedback.</p>
+  <div class="success">
+    <h1 class="success__heading">Your message was sent!</h1>
   </div>
 </template>
 
@@ -11,12 +10,25 @@
   };
 </script>
 
-<style scoped>
-  h1 {
-    color: green;
-  }
+<style lang="scss" scoped>
+  @import '../assets/css/modules/variables.scss';
+  .success {
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: left;
+    background-image: url('/images/message-sent.jpg');
+    height: 95vh;
+    width: 100%;
+    display: flex;
 
-  p {
-    font-size: 18px;
+    @media (min-width: 600px) {
+      background-position: bottom;
+      justify-content: center;
+      align-items: center;
+    }
+
+    &__heading {
+      font: $pageHeading;
+    }
   }
 </style>

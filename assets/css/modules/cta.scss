@@ -20,3 +20,15 @@
     cursor: pointer;
   }
 }
+
+.btn__secondary {
+  background-color: rgba($black-font, 1);
+  color: $white-font;
+  border: none;
+  font: $button;
+
+  &:hover {
+    background-color: rgba($black-font, 0.8);
+    cursor: pointer;
+  }
+}
