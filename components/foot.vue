@@ -41,13 +41,25 @@
           >
         </li>
         <li class="footer__section-item">
-          <NuxtLink class="footer__section-link">Kaap de Groene hoop</NuxtLink>
+          <NuxtLink
+            to="https://kaapdegroenehoop.nl"
+            class="footer__section-link"
+            >Kaap de Groene hoop</NuxtLink
+          >
         </li>
         <li class="footer__section-item">
-          <NuxtLink class="footer__section-link">DID it </NuxtLink>
+          <NuxtLink
+            to="https://en.diditorganic.nl/"
+            class="footer__section-link"
+            >DID it
+          </NuxtLink>
         </li>
         <li class="footer__section-item">
-          <NuxtLink class="footer__section-link">IDOrganic</NuxtLink>
+          <NuxtLink
+            to="https://www.idorganics.com/nl/"
+            class="footer__section-link"
+            >IDOrganic</NuxtLink
+          >
         </li>
       </ul>
     </div>

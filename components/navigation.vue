@@ -133,7 +133,7 @@
               >
             </li>
             <li class="nav-item">
-              <NuxtLink class="nav-item-link" to="/about-the-journey"
+              <NuxtLink class="nav-item-link" to="/about-the-packaging"
                 >The packaging</NuxtLink
               >
             </li>

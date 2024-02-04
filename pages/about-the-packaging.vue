@@ -1,18 +1,18 @@
 <template>
-  <div>
-    <div class="hero hero--women">
-      <h1 class="hero__heading">Meet the women behind the beans</h1>
-    </div>
-    <div class="text">
-      <p class="text__paragraph">
+  <div class="package">
+    <img class="package__image" src="/images/packaging.jpg" />
+    <div class="package__content">
+      <h1 class="package__heading">100% Biodegradable packaging</h1>
+      <p class="package__paragraph">
         We work directly with a cooperative of female farmers called Acro Nevada
         to ensure that our coffee is of the highest quality and is produced
         sustainably.
       </p>
-      <p class="text__paragraph">
+      <p class="package__paragraph">
         We also collaborate with Ecol Sierra. This partnership helps to protect
         the interests of farmers in Colombia, ensuring that they are paid fair
         prices for their coffee and that their working conditions are safe and
+        humane.
       </p>
     </div>
   </div>
@@ -20,6 +20,72 @@
 
 <script>
   export default {
-    mounted() {},
+    data() {
+      return {
+        imageSrc: 'https://taupe-mochi-8cdda8.netlify.app/',
+        isDesktop: false,
+        imageAlt: 'Bag of Kaap Koffie coffee beans',
+      };
+    },
+    mounted() {
+      this.isDesktop = window.innerWidth > 600;
+    },
   };
 </script>
+
+<style lang="scss" scoped>
+  @import '../assets/css/modules/variables.scss';
+
+  .package {
+    display: flex;
+    flex-direction: column;
+    background-image: none;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 0px bottom;
+    width: 100%;
+    @media (min-width: 600px) {
+      height: 95vh;
+      background-image: url('/images/packaging-desktop.jpg');
+    }
+
+    &__image {
+      width: 100%;
+      height: 600px; /* Adjust the height as needed */
+
+      @media (min-width: 600px) {
+        display: none;
+      }
+    }
+
+    &__content {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: flex-start;
+      margin-top: 20px;
+      padding: 20px;
+
+      @media (min-width: 600px) {
+        margin-top: 0;
+        margin-bottom: 200px;
+        padding-left: 20%;
+        width: 80%;
+        height: 100%;
+      }
+    }
+
+    &__heading {
+      font: $pageHeading;
+    }
+
+    &__paragraph {
+      margin-bottom: 10px;
+      font: $paragraph;
+
+      @media (min-width: 600px) {
+        padding-left: 150px;
+      }
+    }
+  }
+</style>
