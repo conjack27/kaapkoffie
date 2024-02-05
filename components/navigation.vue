@@ -95,7 +95,7 @@
       <div class="nav__section nav__section--right">
         <div class="nav-group">
           <h2 class="nav-heading">
-            <NuxtLink class="nav-heading-link" to="/contact-us"
+            <NuxtLink class="nav-heading-link" to="/sailing-journey"
               >Sailing journey</NuxtLink
             >
           </h2>
