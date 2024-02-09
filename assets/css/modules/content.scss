@@ -50,9 +50,10 @@
   }
 
   &__map {
-    border: 1px solid black;
-    height: 600px;
-    width: 600px;
+    border: 2px solid #eee;
+    display: inline-block;
+    overflow: hidden;
+    height: 500px;
   }
 
   &__map-container {

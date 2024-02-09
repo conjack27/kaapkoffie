@@ -16,13 +16,23 @@
     <div class="content__page">
       <div class="content__header">
         <h2 class="content__heading">Retail locations KAAPkoffie beans.</h2>
-        <nuxtLink to="/contact-us" class="btn btn__primary"
+        <nuxtLink
+          ref="contactUsButton"
+          to="/contact-us"
+          class="btn btn__primary"
           >Do you want to sell our beans?</nuxtLink
         >
       </div>
     </div>
     <div class="content__map-container" ref="mapElement">
-      <div class="content__map"></div>
+      <div class="content__map">
+        <iframe
+          src="https://www.google.com/maps/d/embed?mid=1cKrl8OHFavJSachif6Oo5zb_BbLawEk&ehbc=2E312F&noprof=1"
+          style="position: relative; top: -46px; border: none"
+          width="640"
+          height="540"
+        ></iframe>
+      </div>
     </div>
   </div>
 </template>
@@ -32,11 +42,8 @@
     mounted() {},
     methods: {
       scrollToMap() {
-        const mapElement = this.$refs.mapElement;
-        const offsetTop = mapElement.offsetTop;
-
         window.scrollTo({
-          top: offsetTop,
+          top: this.$refs.contactUsButton.$el.offsetTop,
           behavior: 'smooth',
         });
       },
