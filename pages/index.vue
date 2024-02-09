@@ -7,7 +7,7 @@
         :alt="imageAltBoat"
       />
       <div class="home__coffee-cups">
-        <NuxtLink class="home__coffee-cup">
+        <NuxtLink to="where-to-try-our-beans" class="home__coffee-cup">
           <img
             class="home__coffee-cup-image"
             src="/images/koffiekopje.png"
@@ -15,7 +15,7 @@
           />
           <p class="home__coffee-cup-text home__coffee-cup-text--1">Try now</p>
         </NuxtLink>
-        <NuxtLink class="home__coffee-cup">
+        <div @click="scrolltoMap" class="home__coffee-cup">
           <img
             class="home__coffee-cup-image"
             src="/images/koffiekopje.png"
@@ -24,8 +24,8 @@
           <p class="home__coffee-cup-text home__coffee-cup-text--2">
             The route
           </p>
-        </NuxtLink>
-        <NuxtLink class="home__coffee-cup">
+        </div>
+        <NuxtLink to="about-the-coffee" class="home__coffee-cup">
           <img
             class="home__coffee-cup-image"
             src="/images/koffiekopje.png"
@@ -42,15 +42,7 @@
         {{ coffee }} &nbsp;
       </div>
     </div>
-    <div class="video-container">
-      <iframe
-        width="800"
-        height="450"
-        src="https://www.youtube.com/embed/dQw4w9WgXcQ"
-        frameborder="0"
-        allowfullscreen
-      ></iframe>
-    </div>
+    <div class="home__map"></div>
 
     <h2 class="home__blog-heading">Voyage diaries</h2>
     <div class="home__blog">
@@ -142,6 +134,11 @@
       };
     },
     mounted() {},
-    methods: {},
+    methods: {
+      scrolltoMap() {
+        const map = document.querySelector('.banner-container');
+        map.scrollIntoView({ behavior: 'smooth' });
+      },
+    },
   };
 </script>

@@ -156,6 +156,13 @@
       justify-content: center;
     }
 
+    &__machines--horeca {
+      background-image: url('/images/background-horeca.jpg');
+      background-size: cover;
+      background-repeat: no-repeat;
+      background-position: center center;
+    }
+
     &__machines-top {
       display: flex;
       flex-direction: column;
@@ -200,6 +207,7 @@
 
       @media (min-width: 600px) {
         flex-direction: row;
+        padding-bottom: 50px;
       }
     }
 

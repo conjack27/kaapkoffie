@@ -3,6 +3,7 @@
 .home {
   display: flex;
   flex-direction: column;
+  justify-content: center;
   align-items: center;
 
   @media (min-width: 600px) {
@@ -50,9 +51,9 @@
 
   @media (min-width: 600px) {
     flex-direction: row;
-    max-width: 85%;
+    max-width: 95%;
     justify-content: center;
-    height: 88vh;
+    height: 80vh;
   }
 }
 
@@ -60,6 +61,7 @@
   width: 100%;
 
   @media (min-width: 600px) {
+    max-width: 900px;
     width: 55%;
   }
 }
@@ -183,19 +185,19 @@
   }
 }
 
-.video-container {
-  position: relative;
+.home__map {
   width: 100%;
-  overflow: hidden;
-  padding-top: 500px;
+  height: 300px;
   margin: 20px 0;
+  background-image: url('/images/kaart-goed.png');
+  background-size: contain;
+  background-position: center center;
+  background-repeat: no-repeat;
 
   @media (min-width: 600px) {
-    width: 800px;
-    margin: auto;
+    height: 700px;
   }
 }
-
 .video-container iframe {
   position: absolute;
   top: 0;

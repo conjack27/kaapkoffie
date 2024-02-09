@@ -42,13 +42,35 @@
         >KaapKargo</a
       >
     </div>
-    <div class="journey__video">
-      <video controls>
-        <source src="" type="video/mp4" />
-      </video>
-    </div>
+    
+    <!-- <iframe
+      class="journey__video"
+      style=""
+      src="https://www.youtube.com/embed/Lif9y9tBe6E?modestbranding=1"
+      frameborder="0"
+      allow="autoplay; encrypted-media"
+      allowfullscreen
+    ></iframe> -->
+    <video controls autoplay>
+  <source src="https://freight.cargo.site/i/F1616407343994175185000003739366/Video-kaapkoffie-homepage-480.mov" type="video/mp4">
+  Your browser does not support the video tag.
+</video>
   </div>
 </template>
+
+<script>
+  export default {
+    data() {
+      return {
+        imageSrc: 'https://taupe-mochi-8cdda8.netlify.app/',
+        videoSrc:
+          'https://freight.cargo.site/i/F1616407343994175185000003739366/Video-kaapkoffie-homepage-480.mov',
+        videoOptions:
+          'accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share',
+      };
+    },
+  };
+</script>
 
 <style lang="scss">
   @import '../assets/css/modules/variables.scss';
@@ -100,13 +122,10 @@
     }
 
     &__video {
-      display: flex;
-      justify-content: center;
-      margin-top: 2rem;
-
-      video {
-        max-width: 100%;
-      }
+      margin-top: 50px;
+      width: 90%;
+      max-width: 800px; 
+      height: 560px;
     }
   }
 </style>
