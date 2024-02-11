@@ -36,7 +36,7 @@
           rivers and valleys. The Colombia Organic Sierra Nevada is also
           designated as EP or "European Prep" — in the cup it achieves a very
           nice balance between acidity and body while delivering an overall
-          smooth and
+          smooth and nutty finish.
         </p>
       </div>
     </div>

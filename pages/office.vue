@@ -22,21 +22,21 @@
         >
         <button
           class="office__cta btn__secondary btn"
-          @click="scrollToMacbinesSection"
+          @click="scrollToMachines"
         >
           View machines
         </button>
       </div>
     </section>
-    <section class="office__machines">
+    <section class="office__machines" ref="officeMachines">
       <div class="office__machines-top">
         <h2 class="office__machines-heading">Koffie matters X KaapKoffie</h2>
         <p class="office__machines-paragraph">
           Coffee snobs or caffeeine obsessed collegues? A big or a small office?
         </p>
         <p class="office__machines-paragraph">
-          Here are some examples of the many options we can provide togheter
-          with Koffie matters.
+          Here are some examples of the many options we can provide together
+          with Koffie Matters.
         </p>
         <a
           href="https://koffiematters.nl/"
@@ -84,9 +84,11 @@
       };
     },
     methods: {
-      scrollToMacbinesSection() {
-        const machinesSection = document.querySelector('.office__machines');
-        machinesSection.scrollIntoView({ behavior: 'smooth' });
+      scrollToMachines() {
+        window.scrollTo({
+          top: this.$refs.officeMachines.offsetTop - 60,
+          behavior: 'smooth',
+        });
       },
     },
   };
@@ -208,6 +210,7 @@
       @media (min-width: 600px) {
         flex-direction: row;
         padding-bottom: 50px;
+        flex-wrap: nowrap;
       }
     }
 

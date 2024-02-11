@@ -13,13 +13,10 @@
         </button>
       </div>
     </div>
-    <div class="content__page">
+    <div class="content__page" ref="contactUsHeader">
       <div class="content__header">
         <h2 class="content__heading">Retail locations KAAPkoffie beans.</h2>
-        <nuxtLink
-          ref="contactUsButton"
-          to="/contact-us"
-          class="btn btn__primary"
+        <nuxtLink to="/contact-us" class="btn btn__primary"
           >Do you want to sell our beans?</nuxtLink
         >
       </div>
@@ -43,7 +40,7 @@
     methods: {
       scrollToMap() {
         window.scrollTo({
-          top: this.$refs.contactUsButton.$el.offsetTop,
+          top: this.$refs.contactUsHeader.offsetTop - 40,
           behavior: 'smooth',
         });
       },

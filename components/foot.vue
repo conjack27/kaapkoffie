@@ -3,9 +3,13 @@
     <div class="footer__section">
       <h3 class="footer__section-title">Info</h3>
       <ul class="footer__section-list">
-        <li class="footer__section-item">Address: 123 Main St, City</li>
-        <li class="footer__section-item">Phone: 123-456-7890</li>
-        <li class="footer__section-item">Business Number: 123456789</li>
+        <li class="footer__section-item">Ms. van Riemsdijkweg 51</li>
+        <li class="footer__section-item">1033RC</li>
+        <li class="footer__section-item">Amsterdam Noord, NDSM</li>
+        <li class="footer__section-item">Nederland</li>
+        &nbsp;
+        <li class="footer__section-item">Amsterdam Noord, NDSM</li>
+        <li class="footer__section-item">Nederland</li>
       </ul>
     </div>
     <div class="footer__section">

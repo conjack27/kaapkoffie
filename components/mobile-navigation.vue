@@ -62,9 +62,9 @@
             title: 'Businesses',
             showSubMenu: false,
             subMenu: [
-              { title: 'At the office', link: 'office' },
-              { title: 'In your cafe or hotel', link: 'horeca' },
-              { title: 'For your shop', link: 'store' },
+              { title: 'At your office', link: 'office' },
+              { title: 'At your cafe or hotel', link: 'horeca' },
+              { title: 'At your shop', link: 'store' },
             ],
           },
           {

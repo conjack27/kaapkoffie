@@ -42,7 +42,7 @@
         >KaapKargo</a
       >
     </div>
-    
+
     <!-- <iframe
       class="journey__video"
       style=""
@@ -51,10 +51,6 @@
       allow="autoplay; encrypted-media"
       allowfullscreen
     ></iframe> -->
-    <video controls autoplay>
-  <source src="https://freight.cargo.site/i/F1616407343994175185000003739366/Video-kaapkoffie-homepage-480.mov" type="video/mp4">
-  Your browser does not support the video tag.
-</video>
   </div>
 </template>
 
@@ -92,7 +88,7 @@
       width: 100%;
 
       @media (min-width: 600px) {
-        height: 92vh;
+        height: 82vh;
         padding-top: 200px;
         align-items: flex-start;
         justify-content: flex-start;
@@ -106,6 +102,7 @@
       @media (min-width: 600px) {
         color: $black-font;
         font: 72px;
+        padding-left: 80px;
       }
     }
 
@@ -115,6 +112,10 @@
       align-items: center;
       justify-content: center;
       padding: 20px;
+
+      @media (min-width: 600px) {
+        padding: 20px 100px;
+      }
     }
 
     &__paragraph {
@@ -124,7 +125,7 @@
     &__video {
       margin-top: 50px;
       width: 90%;
-      max-width: 800px; 
+      max-width: 800px;
       height: 560px;
     }
   }

@@ -72,7 +72,6 @@
     flex-direction: column;
     align-items: center;
     padding: 20px 10%;
-    background-color: $white-font;
     position: relative;
 
     @media (min-width: 600px) {

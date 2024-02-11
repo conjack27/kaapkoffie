@@ -20,6 +20,7 @@
         We also collaborate with Ecol Sierra. This partnership helps to protect
         the interests of farmers in Colombia, ensuring that they are paid fair
         prices for their coffee and that their working conditions are safe and
+        humane.
       </p>
     </div>
   </div>

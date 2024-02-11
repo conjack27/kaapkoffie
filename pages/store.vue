@@ -1,5 +1,5 @@
 <template>
-  <div class="contact">
+  <div class="contact contact--store">
     <div class="contact__form">
       <h1 class="contact__form-heading">Contact us</h1>
       <p class="contact__form-text">

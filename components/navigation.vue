@@ -66,17 +66,17 @@
           >
             <li class="nav-item">
               <NuxtLink class="nav-item-link" to="/office"
-                >At the office</NuxtLink
+                >At your office</NuxtLink
               >
             </li>
             <li class="nav-item">
               <NuxtLink class="nav-item-link" to="/horeca"
-                >In your cafe or hotel</NuxtLink
+                >At your cafe or hotel</NuxtLink
               >
             </li>
             <li class="nav-item">
               <NuxtLink class="nav-item-link" to="/store"
-                >For your shop
+                >At your shop
               </NuxtLink>
             </li>
           </ul>

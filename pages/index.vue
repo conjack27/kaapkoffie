@@ -42,6 +42,17 @@
         {{ coffee }} &nbsp;
       </div>
     </div>
+
+    <video class="home__video" controls autoplay>
+      <source
+        src="https://freight.cargo.site/i/F1616407343994175185000003739366/Video-kaapkoffie-homepage-480.mov"
+        type="video/mp4"
+      />
+      Your browser does not support the video tag.
+    </video>
+
+    <h2 class="home__blog-heading">The Route</h2>
+
     <div class="home__map"></div>
 
     <h2 class="home__blog-heading">Voyage diaries</h2>
