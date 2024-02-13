@@ -75,7 +75,7 @@
       background-repeat: no-repeat;
       background-size: cover;
       background-position: center center;
-      background-image: url('/images/about-the-coffee.jpg');
+      background-image: url('/images/about-the-coffee2.jpg');
 
       @media (min-width: 600px) {
         height: 90vh;

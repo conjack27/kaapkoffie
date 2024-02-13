@@ -100,7 +100,7 @@
     background-repeat: no-repeat;
     background-size: cover;
     background-position: bottom;
-    background-image: url('/images/office-background.jpg');
+    background-image: url('/images/office-background2.jpg');
 
     &__top {
       height: 85vh;

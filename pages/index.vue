@@ -2,7 +2,7 @@
   <div class="container home">
     <div
       class="home__image-section"
-      style="background-image: url('/images/homepage.jpg')"
+      style="background-image: url('/images/homepage2.jpg')"
     >
       <div class="home__coffee-cups">
         <NuxtLink

@@ -1,7 +1,7 @@
 <template>
   <div class="contact contact--store">
     <div class="contact__form">
-      <h1 class="contact__form-heading">Contact us</h1>
+      <h1 class="contact__form-heading">Get our beans in your shop</h1>
       <p class="contact__form-text">
         We are very excited that you want Kaap Koffie in your store! If you send
         some information through our contact form, we will reach out to you
@@ -38,14 +38,14 @@
         <input class="contact__form-button" type="submit" value="Send" />
       </form>
       <img
-        class="contact__image--mobile"
-        src="/images/cup-of-coffee.png"
+        class="store__image--mobile contact__image--mobile"
+        src="/images/armen-kaapkoffie.png"
         alt="imageAlt"
       />
     </div>
     <img
-      class="contact__image--desktop"
-      src="/images/cup-of-coffee.png"
+      class="store__image--desktop contact__image--desktop"
+      src="/images/armen-kaapkoffie.png"
       :alt="imageAlt"
     />
     <div class="contact__footer">

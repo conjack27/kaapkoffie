@@ -4,7 +4,7 @@
       <div class="hero__section hero__section--image">
         <div
           class="hero__section-image"
-          style="background-image: url('/images/beans-boat.jpg')"
+          style="background-image: url('/images/beans-boat2.jpg')"
         ></div>
       </div>
       <div class="hero__section hero__section--text">

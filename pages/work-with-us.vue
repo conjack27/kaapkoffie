@@ -2,7 +2,7 @@
   <div class="content">
     <div
       class="hero hero--team hero--work"
-      style="background-image: url('/images/team.jpg')"
+      style="background-image: url('/images/team2.jpg')"
     >
       <h1 class="hero__heading">Want to be a part of our team?</h1>
     </div>
