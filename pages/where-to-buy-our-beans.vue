@@ -2,7 +2,7 @@
   <div class="content">
     <div
       class="hero hero--coffee-sacks hero--full-screen"
-      style="background-image: url('/images/2-zaks.jpg')"
+      style="background-image: url('/images/2-zaks2.jpg')"
     >
       <div class="hero__heading-container">
         <h1 class="hero__heading hero__heading--1">
