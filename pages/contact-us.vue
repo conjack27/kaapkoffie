@@ -22,6 +22,10 @@
           <input class="contact__input" type="email" name="email" id="email" />
         </div>
         <div class="contact__form-section">
+          <label class="contact__label" for="phone">Phone number: </label>
+          <input class="contact__input" type="phone" name="phone" id="phone" />
+        </div>
+        <div class="contact__form-section">
           <label class="contact__label" for="message">Message*: </label>
         </div>
         <div class="contact__form-section">

@@ -1,13 +1,14 @@
 <template>
   <div class="container home">
-    <div class="home__image-section">
-      <img
-        class="home__image"
-        src="/images/beans-boat.jpg"
-        :alt="imageAltBoat"
-      />
+    <div
+      class="home__image-section"
+      style="background-image: url('/images/homepage.jpg')"
+    >
       <div class="home__coffee-cups">
-        <NuxtLink to="where-to-try-our-beans" class="home__coffee-cup">
+        <NuxtLink
+          to="where-to-try-our-beans"
+          class="home__coffee-cup home__coffee-cup--1"
+        >
           <img
             class="home__coffee-cup-image"
             src="/images/koffiekopje.png"
@@ -15,7 +16,7 @@
           />
           <p class="home__coffee-cup-text home__coffee-cup-text--1">Try now</p>
         </NuxtLink>
-        <div @click="scrolltoMap" class="home__coffee-cup">
+        <div @click="scrolltoMap" class="home__coffee-cup home__coffee-cup--2">
           <img
             class="home__coffee-cup-image"
             src="/images/koffiekopje.png"
@@ -25,7 +26,10 @@
             The route
           </p>
         </div>
-        <NuxtLink to="about-the-coffee" class="home__coffee-cup">
+        <NuxtLink
+          to="about-the-coffee"
+          class="home__coffee-cup home__coffee-cup--3"
+        >
           <img
             class="home__coffee-cup-image"
             src="/images/koffiekopje.png"
@@ -37,11 +41,16 @@
         </NuxtLink>
       </div>
     </div>
+
     <div class="banner-container">
       <div class="coffee-word" v-for="(coffee, index) in coffees" :key="index">
         {{ coffee }} &nbsp;
       </div>
     </div>
+
+    <h2 class="home__blog-heading">The Route</h2>
+
+    <div class="home__map"></div>
 
     <video class="home__video" controls autoplay>
       <source
@@ -51,54 +60,40 @@
       Your browser does not support the video tag.
     </video>
 
-    <h2 class="home__blog-heading">The Route</h2>
-
-    <div class="home__map"></div>
-
     <h2 class="home__blog-heading">Voyage diaries</h2>
     <div class="home__blog">
-      <div class="home__blog-item">
+      <NuxtLink to="voyage-diary-1" class="home__blog-item">
         <img
           class="home__blog__img"
-          src="/images/voyage-diary-1.png"
+          src="/images/blogpost1.jpg"
           alt="People on boat"
         />
         <h3 class="home__blog-title">Part 1</h3>
         <p class="home__blog-text">
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-          eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum
-          suspendisse ultrices gravida. Risus commodo viverra maecenas accumsan
-          lacus vel facilisis.
+          Monday morning, the Tres Hombres left the harbor, it was beautiful to
+          see the boat leaving with their sails. We knew that it will soon be
+          our time. Finally, we left tuesday around 5 pm. The first day was
+          really difficult. The waves around us were up to 6 meters high. Half
+          of the crew was sick. We finally set the sail, and the wind was good
+          for one day...
         </p>
-      </div>
-      <div class="home__blog-item">
+      </NuxtLink>
+      <NuxtLink to="voyage-diary-2" class="home__blog-item">
         <img
           class="home__blog__img"
-          src="/images/voyage-diary-1.png"
+          src="/images/blogpost2.jpg"
           alt="People on boat"
         />
         <h3 class="home__blog-title">Part 2</h3>
         <p class="home__blog-text">
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-          eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum
-          suspendisse ultrices gravida. Risus commodo viverra maecenas accumsan
-          lacus vel facilisis.
+          It is hard to know which day it is. We wake up at various times
+          throughout the day. My parents gave me an advent calendar filled with
+          sweets. However, it is hard to know which one to open which day. The
+          calm winds provided us with some downtime, allowing us to work on
+          personal projects, like stitching. Being on board surely improved our
+          creativity...
         </p>
-      </div>
-      <div class="home__blog-item">
-        <img
-          class="home__blog__img"
-          src="/images/voyage-diary-1.png"
-          alt="People on boat"
-        />
-        <h3 class="home__blog-title">Part 3</h3>
-        <p class="home__blog-text">
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-          eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum
-          suspendisse ultrices gravida. Risus commodo viverra maecenas accumsan
-          lacus vel facilisis.
-        </p>
-      </div>
+      </NuxtLink>
     </div>
   </div>
 </template>

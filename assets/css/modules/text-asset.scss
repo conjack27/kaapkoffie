@@ -56,3 +56,12 @@
 .text-asset__heading {
   font: $heading;
 }
+
+.text-asset__text {
+  margin: 10px 28px;
+
+  @media (min-width: 600px) {
+    margin: 10px 58px;
+    font-size: 20px;
+  }
+}

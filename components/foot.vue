@@ -8,19 +8,51 @@
         <li class="footer__section-item">Amsterdam Noord, NDSM</li>
         <li class="footer__section-item">Nederland</li>
         &nbsp;
-        <li class="footer__section-item">Amsterdam Noord, NDSM</li>
-        <li class="footer__section-item">Nederland</li>
+        <li class="footer__section-item">KVK: 85547395</li>
+        <li class="footer__section-item">BTW: NL863662304B01</li>
       </ul>
     </div>
     <div class="footer__section">
       <h3 class="footer__section-title">Contact</h3>
       <ul class="footer__section-list">
-        <li class="footer__section-item">WhatsApp: 123-456-7890</li>
-        <li class="footer__section-item">Email: example@example.com</li>
-        <li class="footer__section-item">Instagram: @example</li>
+        <li class="footer__section-item">WhatsApp: +31 6 42618212</li>
+        <li class="footer__section-item">Email: info@kaapkoffie.com</li>
+        <li class="footer__section-item">Instagram: @kaapkoffie</li>
       </ul>
       <div class="footer__social-icons">
-        <!-- Add social icons with links here -->
+        <a
+          class="footer__social-icon"
+          href="https://www.instagram.com/kaapkoffie"
+          target="_blank"
+        >
+          <img
+            class="footer__social-image"
+            src="../assets/images/instagram.svg"
+            alt="Instagram"
+          />
+        </a>
+        <a
+          class="footer__social-icon"
+          href="https://www.linkedin.com/company/kaap-koffie/about/"
+          target="_blank"
+        >
+          <img
+            class="footer__social-image"
+            src="../assets/images/linkedin.svg"
+            alt="LinkedIn"
+          />
+        </a>
+        <a
+          class="footer__social-icon"
+          href="https://www.facebook.com/kaapkoffie"
+          target="_blank"
+        >
+          <img
+            class="footer__social-image"
+            src="../assets/images/facebook.svg"
+            alt="Facebook"
+          />
+        </a>
       </div>
     </div>
     <div class="footer__section">
@@ -123,6 +155,18 @@
   }
 
   .footer__social-icons {
-    /* Add styling for socia l icons here */
+    margin-top: 30px;
+    display: flex;
+  }
+
+  .footer__social-icon {
+    margin-right: 10px;
+  }
+
+  .footer__social-image {
+    display: flex;
+    flex-direction: column;
+    max-width: 40px;
+    height: auto;
   }
 </style>

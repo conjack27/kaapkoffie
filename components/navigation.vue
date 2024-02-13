@@ -13,7 +13,10 @@
         <div @mouseleave="orderMenuIsVisible = false" class="nav-group">
           <h2
             class="nav-heading"
-            @click="orderMenuIsVisible = !orderMenuIsVisible"
+            @click="
+              orderMenuIsVisible = !orderMenuIsVisible;
+              navMenuIsVisible = !navMenuIsVisible;
+            "
             @mouseover="(orderMenuIsVisible = true), (navMenuIsVisible = true)"
             @mouseleave="
               (orderMenuIsVisible = false), (navMenuIsVisible = false)
@@ -44,7 +47,10 @@
         <div @mouseleave="businessMenuIsVisible = false" class="nav-group">
           <h2
             class="nav-heading"
-            @click="businessMenuIsVisible = !businessMenuIsVisible"
+            @click="
+              businessMenuIsVisible = !businessMenuIsVisible;
+              navMenuIsVisible = !navMenuIsVisible;
+            "
             @mouseover="
               (businessMenuIsVisible = true), (navMenuIsVisible = true)
             "
@@ -103,7 +109,10 @@
         <div @mouseleave="aboutMenuIsVisible = false" class="nav-group">
           <h2
             class="nav-heading"
-            @click="aboutMenuIsVisible = !aboutMenuIsVisible"
+            @click="
+              aboutMenuIsVisible = !aboutMenuIsVisible;
+              navMenuIsVisible = !navMenuIsVisible;
+            "
             @mouseover="(aboutMenuIsVisible = true), (navMenuIsVisible = true)"
             @mouseleave="
               (aboutMenuIsVisible = false), (navMenuIsVisible = false)
@@ -143,7 +152,10 @@
         <div @mouseleave="contactMenuIsVisible = false" class="nav-group">
           <h2
             class="nav-heading"
-            @click="contactMenuIsVisible = !contactMenuIsVisible"
+            @click="
+              contactMenuIsVisible = !contactMenuIsVisible;
+              navMenuIsVisible = !navMenuIsVisible;
+            "
             @mouseover="
               (contactMenuIsVisible = true), (navMenuIsVisible = true)
             "

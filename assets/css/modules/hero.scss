@@ -83,6 +83,22 @@
     }
   }
 
+  &__section-quote {
+    margin: 10px 20px;
+
+    @media (min-width: 600px) {
+      margin: 10px 50px;
+    }
+  }
+
+  &__section-paragraph {
+    margin: 0 28px;
+  }
+
+  &__button.btn {
+    margin-top: 30px;
+  }
+
   &--full-screen {
     height: 88vh;
     justify-content: flex-end;
@@ -148,6 +164,8 @@
       justify-content: flex-end;
 
       .hero__heading {
+        margin-bottom: -90px;
+        width: 400px;
         display: block;
       }
     }

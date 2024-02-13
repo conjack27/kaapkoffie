@@ -16,10 +16,8 @@
           {{ quote1 }}
         </blockquote>
         <p class="hero__section-paragraph">
-          lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-          eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad
-          minim veniam, quis nostrud exercitation ullamco laboris nisi ut
-          aliquip ex e
+          Almost all coffee beans are transported by container ships, making the
+          coffee industry a highly polluting industry.
         </p>
       </div>
     </div>
@@ -71,7 +69,6 @@
           'Almost all coffee beans are transported by container ships, making the coffee industry a highly polluting industry.',
 
         imageSrc: 'https://taupe-mochi-8cdda8.netlify.app/',
-
         imageAlt: 'Two sailors on a boat holding a bag of coffee beans',
       };
     },
