@@ -14,15 +14,14 @@
 
     <div class="text text--women">
       <p class="text__paragraph">
-        We work directly with a cooperative of female farmers called Acro Nevada
-        to ensure that our coffee is of the highest quality and is produced
-        sustainably.
+        We collaborate directly with a cooperative of female farmers known as
+        Acro Nevada, ensuring the production of our coffee is of the highest
+        quality and is done sustainably. Additionally, we partner with Ecol
+        Sierra to safeguard the interests of farmers in Colombia.
       </p>
       <p class="text__paragraph">
-        We also collaborate with Ecol Sierra. This partnership helps to protect
-        the interests of farmers in Colombia, ensuring that they are paid fair
-        prices for their coffee and that their working conditions are safe and
-        humane.
+        This collaboration ensures fair compensation for their coffee and
+        guarantees safe and humane working conditions.
       </p>
     </div>
   </div>

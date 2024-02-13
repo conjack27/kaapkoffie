@@ -4,15 +4,12 @@
     <div class="package__content">
       <h1 class="package__heading">100% Biodegradable packaging</h1>
       <p class="package__paragraph">
-        We work directly with a cooperative of female farmers called Acro Nevada
-        to ensure that our coffee is of the highest quality and is produced
-        sustainably.
-      </p>
-      <p class="package__paragraph">
-        We also collaborate with Ecol Sierra. This partnership helps to protect
-        the interests of farmers in Colombia, ensuring that they are paid fair
-        prices for their coffee and that their working conditions are safe and
-        humane.
+        At Kaapkoffie, we aim for sustainability throughout our entire supply
+        chain, including our packaging. That's why we use biodegradable and
+        reusable packaging. Biodegradable means that our packaging can be broken
+        down by nature's microorganisms. The kraft paper packaging is internally
+        lined with a biodegradable film and is equipped with aroma valves made
+        of biodegradable plastic.
       </p>
     </div>
   </div>

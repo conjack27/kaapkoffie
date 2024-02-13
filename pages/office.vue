@@ -198,7 +198,6 @@
       text-align: center;
 
       @media (min-width: 600px) {
-        align-self: center;
       }
     }
 

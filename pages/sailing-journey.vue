@@ -24,7 +24,7 @@
           commitment to a greener tomorrow. Our second ship, currently under
           construction, will boast a capacity of 120 tons, doubling our curousin
           fostering sustain atia looks like, follow our
-          <NuxtLink to="/">Voyage Diaries</NuxtLink>
+          <NuxtLink to="/#voyageDiaries">Voyage Diaries</NuxtLink>
         </p>
         <p class="journey__paragraph">
           The combination of our shipbuilding skills and entrepreneurial
@@ -35,6 +35,13 @@
           Questions or inquiries? Feel free to reach out!
         </p>
       </div>
+      <video class="home__video" controls autoplay>
+        <source
+          src="https://freight.cargo.site/i/X1616416610826741077435515346662/2f6e77d6-b1d0-4c05-916e-cfce25ce302d.mp4"
+          type="video/mp4"
+        />
+        Your browser does not support the video tag.
+      </video>
       <a
         class="journey__cta btn btn__secondary btn--large"
         target="_blank"
@@ -42,15 +49,6 @@
         >KaapKargo</a
       >
     </div>
-
-    <!-- <iframe
-      class="journey__video"
-      style=""
-      src="https://www.youtube.com/embed/Lif9y9tBe6E?modestbranding=1"
-      frameborder="0"
-      allow="autoplay; encrypted-media"
-      allowfullscreen
-    ></iframe> -->
   </div>
 </template>
 
@@ -120,6 +118,10 @@
 
     &__paragraph {
       font-size: 18px;
+    }
+
+    &__cta {
+      margin-top: 20px;
     }
 
     &__video {

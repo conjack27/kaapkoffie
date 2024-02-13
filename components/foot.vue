@@ -16,8 +16,13 @@
       <h3 class="footer__section-title">Contact</h3>
       <ul class="footer__section-list">
         <li class="footer__section-item">WhatsApp: +31 6 42618212</li>
-        <li class="footer__section-item">Email: info@kaapkoffie.com</li>
-        <li class="footer__section-item">Instagram: @kaapkoffie</li>
+        <li class="footer__section-item">
+          Email: <a href="mailto:info@kaapkoffie.com">info@kaapkoffie.com</a>
+        </li>
+        <li class="footer__section-item">
+          Instagram:
+          <a href="https://www.instagram.com/kaapkoffie">@kaapkoffie</a>
+        </li>
       </ul>
       <div class="footer__social-icons">
         <a
@@ -94,7 +99,7 @@
           <NuxtLink
             to="https://www.idorganics.com/nl/"
             class="footer__section-link"
-            >IDOrganic</NuxtLink
+            >IDorganic</NuxtLink
           >
         </li>
       </ul>
@@ -142,6 +147,15 @@
 
   .footer__section-item {
     margin-bottom: 5px;
+
+    a {
+      color: #ffffff;
+      text-decoration: none;
+
+      &:hover {
+        text-decoration: underline;
+      }
+    }
   }
 
   .footer__section-link {

@@ -25,7 +25,7 @@
       <div class="content__map">
         <iframe
           src="https://www.google.com/maps/d/embed?mid=1cKrl8OHFavJSachif6Oo5zb_BbLawEk&ehbc=2E312F&noprof=1"
-          style="position: relative; top: -46px; border: none"
+          style="position: relative; top: -67px; border: none"
           width="640"
           height="540"
         ></iframe>
