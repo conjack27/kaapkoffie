@@ -9,7 +9,7 @@
           Do you want to try our coffee at home?
         </h1>
         <button class="btn btn__primary" @click="scrollToMap">
-          See where you can buy us
+          Where to buy our beans
         </button>
       </div>
     </div>
