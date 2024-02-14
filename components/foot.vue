@@ -15,7 +15,7 @@
     <div class="footer__section">
       <h3 class="footer__section-title">Contact</h3>
       <ul class="footer__section-list">
-        <li class="footer__section-item">WhatsApp: +31 6 42618212</li>
+        <li class="footer__section-item">Phone: +31 6 42618212</li>
         <li class="footer__section-item">
           Email: <a href="mailto:info@kaapkoffie.com">info@kaapkoffie.com</a>
         </li>
