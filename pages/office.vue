@@ -30,7 +30,7 @@
     </section>
     <section class="office__machines" ref="officeMachines">
       <div class="office__machines-top">
-        <h2 class="office__machines-heading">Koffie matters X KaapKoffie</h2>
+        <h2 class="office__machines-heading">Koffie matters X Kaap Koffie</h2>
         <p class="office__machines-paragraph">
           Coffee snobs or caffeeine obsessed collegues? A big or a small office?
         </p>

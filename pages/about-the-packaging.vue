@@ -4,7 +4,7 @@
     <div class="package__content">
       <h1 class="package__heading">100% Biodegradable packaging</h1>
       <p class="package__paragraph">
-        At Kaapkoffie, we aim for sustainability throughout our entire supply
+        At Kaap Koffie, we aim for sustainability throughout our entire supply
         chain, including our packaging. That's why we use biodegradable and
         reusable packaging. Biodegradable means that our packaging can be broken
         down by nature's microorganisms. The kraft paper packaging is internally

@@ -5,8 +5,8 @@
         <img
           src="../assets/images/logo.png"
           class="nav__logo"
-          alt="Kaapkoffie"
-          title="Kaapkoffie"
+          alt="Kaap Koffie"
+          title="Kaap Koffie"
         />
       </NuxtLink>
       <div class="hamburger" @click="toggleMenu">
@@ -49,12 +49,12 @@
             showSubMenu: false,
             subMenu: [
               {
-                title: 'Where to buy our beans',
-                link: 'where-to-buy-our-beans',
+                title: 'Where to buy our coffee',
+                link: 'where-to-buy-our-coffee',
               },
               {
-                title: 'Where to try our beans',
-                link: 'where-to-try-our-beans',
+                title: 'Where to try our coffee',
+                link: 'where-to-try-our-coffee',
               },
             ],
           },

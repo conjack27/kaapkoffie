@@ -18,12 +18,12 @@
         </p>
       </div>
       <div class="faq__block">
-        <strong class="faq__question">Is Kaapkoffie organic?</strong>
+        <strong class="faq__question">Is Kaap Koffie organic?</strong>
         <p class="faq__answer">Yes! All our coffee is organic.</p>
         <p class="faq__answer">
           For coffee to be considered organic, not only our coffee beans must be
           organically certified, but also our entire supply chain, including
-          farmers, transportation, roaster, and storage. Kaapkoffie adheres to
+          farmers, transportation, roaster, and storage. Kaap Koffie adheres to
           these regulations and has been bio-certified by Skal Biocontrole.
         </p>
       </div>
@@ -32,7 +32,7 @@
           >What type of packaging do you have?</strong
         >
         <p class="faq__answer">
-          At Kaapkoffie, we aim for sustainability throughout our entire supply
+          At Kaap Koffie, we aim for sustainability throughout our entire supply
           chain, including our packaging. That's why we use biodegradable and
           reusable packaging. Biodegradable means our packaging can be broken
           down by nature's microorganisms.
@@ -53,7 +53,7 @@
       <div class="faq__block">
         <strong class="faq__question">Why a female farmer corporation?</strong>
         <p class="faq__answer">
-          At Kaapkoffie, our collaboration with a female-led corporation goes
+          At Kaap Koffie, our collaboration with a female-led corporation goes
           beyond business. Many of the women behind this provider for their
           tamily Additionaly some face societal expectations urging women to
           stay at home. Wete dedicated to supporting these women, helping them

@@ -21,65 +21,61 @@
         {{ text5 }}
       </p>
       <table>
-        <thead>
-          <tr>
-            <th>Time</th>
-            <th>Team 1</th>
-            <th>Team 2</th>
-          </tr>
-        </thead>
-        <tbody>
-          <tr>
-            <td>00-04</td>
-            <td>X</td>
-            <td></td>
-          </tr>
-          <tr>
-            <td>04-08</td>
-            <td></td>
-            <td>X</td>
-          </tr>
-          <tr>
-            <td>08-14</td>
-            <td>X</td>
-            <td></td>
-          </tr>
-          <tr>
-            <td>14-20</td>
-            <td></td>
-            <td>X</td>
-          </tr>
-          <tr>
-            <td>20-00</td>
-            <td>X</td>
-            <td></td>
-          </tr>
-          <tr>
-            <td>00-04</td>
-            <td></td>
-            <td>X</td>
-          </tr>
-          <tr>
-            <td>04-08</td>
-            <td>X</td>
-            <td></td>
-          </tr>
-          <tr>
-            <td>08-14</td>
-            <td></td>
-            <td>X</td>
-          </tr>
-          <tr>
-            <td>14-20</td>
-            <td>X</td>
-            <td></td>
-          </tr>
-          <tr>
-            <td>20-00</td>
-            <td></td>
-            <td>X</td>
-          </tr>
-        </tbody>
+        <tr>
+          <th>Time</th>
+          <th>Team 1</th>
+          <th>Team 2</th>
+        </tr>
+        <tr>
+          <td>00-04</td>
+          <td>X</td>
+          <td>X</td>
+        </tr>
+        <tr>
+          <td>04-08</td>
+          <td>X</td>
+          <td>X</td>
+        </tr>
+        <tr>
+          <td>08-14</td>
+          <td></td>
+          <td></td>
+        </tr>
+        <tr>
+          <td>14-20</td>
+          <td></td>
+          <td></td>
+        </tr>
+        <tr>
+          <td>20-00</td>
+          <td></td>
+          <td></td>
+        </tr>
+        <tr>
+          <td>00-04</td>
+          <td>X</td>
+          <td>X</td>
+        </tr>
+        <tr>
+          <td>04-08</td>
+          <td>X</td>
+          <td>X</td>
+        </tr>
+        <tr>
+          <td>08-14</td>
+          <td></td>
+          <td></td>
+        </tr>
+        <tr>
+          <td>14-20</td>
+          <td></td>
+          <td></td>
+        </tr>
+        <tr>
+          <td>20-00</td>
+          <td></td>
+          <td></td>
+        </tr>
       </table>
       <p class="blog__text">
         {{ text6 }}
@@ -96,17 +92,17 @@
         imageAlt: 'Two sailors on a boat holding a bag of coffee beans',
         heading: 'Voyage diaries 1',
         text1:
-          'Monday morning, the Tres Hombres left the harbor, it was beautiful to see the boat leaving with their sails. We knew that it will soon be our time. Finally, we left tuesday around 5 pm. The first day was really difficult. The waves around us were up to 6 meters high. Half of the crew was sick. We finally set the sail, and the wind was good for one day.',
+          'Monday morning. It was a beautiful to see the boat sailing away with its sails. We knew that our turn would come soon. Finally, on Tuesday around 5 pm, we set off. The first day was extremely challenging as the 		waves around us reached 6 meters in height. Half of the crew experienced seasickness. Eventually, we hoisted the sails, and the wind was favourable for one day.',
         text2:
-          'The day after we had no wind, but thanks to that we had the opportunity to see 2 whales around the boat during the whole day. They were shy, but it was amazing to see this big animal!',
+          'The following day, we encountered a complete absence of wind. However, this presented us with the opportunity to witness two whales swimming around the boat throughout the entire day. Though they were shy, it	was truly awe-inspiring to observe these magnificent creatures!',
         text3:
-          "Now it's Sunday, we are sailing near the Spanish cap finisterre. During the lunch we shared a nice moment with the whole crew, having a BBQ in the sun.",
+          "Now it's Sunday, and we are sailing near the Spanish Cap Finisterre. During lunch, the entire crew shared a delightful moment, enjoying a BBQ under the sun.",
         text4:
-          'Without any big trouble we made it through the biscay, unlike all previous experiences and stories that we have been told.',
+          'Fortunately, we successfully navigated through the Biscay without encountering any major issues, contrary to the previous experiences and stories we had heard.',
         text5:
-          'We have a daily routine on board. We have two teams of watches and we switch like this :',
+          'Our daily routine on board follows a specific schedule. We have two teams for watch duty, and we alternate as follows:',
         text6:
-          'It means one day we are on watch in the morning, the day after in the afternoon, and one or two times at night.',
+          'This means that one day we are on watch in the morning, the next day in the afternoon, and one or two times during the night.',
       };
     },
   };
@@ -153,5 +149,21 @@
         font-size: 16px;
       }
     }
+  }
+  table {
+    border-collapse: collapse;
+    width: 100%;
+    margin-top: 20px;
+  }
+
+  th,
+  td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: center;
+  }
+
+  th {
+    background-color: #f2f2f2;
   }
 </style>

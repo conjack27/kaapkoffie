@@ -1,6 +1,6 @@
 <template>
   <div class="content content--dark">
-    <h1 class="content__heading">Where to drink our beans</h1>
+    <h1 class="content__heading">Where to drink our coffee</h1>
     <div class="content__blocks">
       <div class="content__block">
         <a target="_blank" href="https://maps.app.goo.gl/9A1jHVAPjeycU74A9">

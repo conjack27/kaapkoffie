@@ -26,11 +26,11 @@
         imageAlt: 'Two sailors on a boat holding a bag of coffee beans',
         heading: 'Voyage diaries 2',
         text1:
-          'It is hard to know which day it is. We wake up at various times throughout the day. My parents gave me an advent calendar filled with sweets. However, it is hard to know which one to open which day. The calm winds provided us with some downtime, allowing us to work on personal projects, like stitching. Being on board surely improved our creativity. ',
+          "It is difficult to keep track of the days on the ship. We wake up at different times throughout the day. My parents gave me an advent calendar filled with sweets, but it's challenging to determine which one to open 	each day. Luckily, we have had some moments of downtime thanks to the calm winds. During this time, we've been able to work on personal projects, such as stitching, and being on board has definitely enhanced 	our creativity.",
         text2:
-          'Later on, we had 30 knots of wind and four-meter waves. We had to prepare the boat, adjust the sails and secure everything, so we could move with the rolling waves. The captain told us many times to be careful, instructing us to walk on the windward side of the ship and providing us with plenty of other safety information. Because of the weather, several repairs were done on the ship.',
+          'Later, we encountered strong winds of 30 knots and four-meter waves. We had to prepare the boat, adjust the sails, and secure everything to ensure we could navigate the rolling waves. The captain repeatedly reminded us to be cautious, instructing us to walk on the windward side of the ship and providing us with plenty of other safety information. Due to the weather conditions, several repairs had to be made on the ship.',
         text3:
-          "This time, none of us felt sick. We enjoyed the wind after the calm days we’ve had. On Saturday, as we continued our journey towards the other side of the world, we adjusted the ship's time.",
+          "Fortunately, none of us felt seasick this time. We welcomed the wind after the calm days we had experienced. On Saturday, as we continued our journey to the other side of the world, we adjusted the ship's time.",
       };
     },
   };

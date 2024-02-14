@@ -14,8 +14,8 @@
         <img
           src="../assets/images/logo.png"
           class="nav__logo"
-          alt="Kaapkoffie"
-          title="Kaapkoffie"
+          alt="Kaap Koffie"
+          title="Kaap Koffie"
         />
       </NuxtLink>
 
@@ -29,7 +29,7 @@
           @mouseover="(orderMenuIsVisible = true), (navMenuIsVisible = true)"
           @mouseleave="(orderMenuIsVisible = false), (navMenuIsVisible = false)"
         >
-          Order
+          Try our coffee
         </h2>
         <ul
           class="nav-list"
@@ -38,13 +38,13 @@
           @mouseleave="(orderMenuIsVisible = false), (navMenuIsVisible = false)"
         >
           <li class="nav-item active">
-            <NuxtLink class="nav-item-link" to="/where-to-buy-our-beans"
+            <NuxtLink class="nav-item-link" to="/where-to-buy-our-coffee"
               >Where to buy our beans</NuxtLink
             >
           </li>
           <li class="nav-item">
-            <NuxtLink class="nav-item-link" to="/where-to-try-our-beans"
-              >Where to try our beans</NuxtLink
+            <NuxtLink class="nav-item-link" to="/where-to-try-our-coffee"
+              >Where to try our coffee</NuxtLink
             >
           </li>
         </ul>
@@ -169,9 +169,7 @@
       </div>
     </div>
     <h3 class="nav__brand-motto">
-      <NuxtLink to="about-us">
-        Sustainable, fair coffee. Sailed by wind</NuxtLink
-      >
+      <NuxtLink to="about-us">Sustainable. Fair. Sailed by wind. </NuxtLink>
     </h3>
   </div>
 </template>

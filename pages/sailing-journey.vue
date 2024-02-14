@@ -6,15 +6,15 @@
     <div class="journey__content">
       <div class="journey__paragraphs">
         <p class="journey__paragraph">
-          Our coffee beans are sailed by Kaapkargo, which was founded in 2022.
-          To combat pollution within the maritime industry, Kaapkargo offers
+          Our coffee beans are sailed by Kaap Kargo, which was founded in 2022.
+          To combat pollution within the maritime industry, Kaap Kargo offers
           sailing cargo vessels as a sustainable alternative to traditional
-          container ships. Kaapkargo strives to support global climate goals by
+          container ships. Kaap Kargo strives to support global climate goals by
           utilizing wind power and human effort instead of depending on fossil
           fuels.
         </p>
         <p class="journey__paragraph">
-          Founded in 2022, KaapKargo is proud to be more than just a cargo
+          Founded in 2022, Kaap Kargo is proud to be more than just a cargo
           company; we are pioneers in sustainable shipping. Breaking free from
           the conventional, we've set sail with the Ide Min, crossing the
           Atlantic Ocean with 60 tons of organic coffee beans from Colombia to
@@ -46,7 +46,7 @@
         class="journey__cta btn btn__secondary btn--large"
         target="_blank"
         href="https://kaapkargo.com"
-        >KaapKargo</a
+        >Kaap Kargo</a
       >
     </div>
   </div>

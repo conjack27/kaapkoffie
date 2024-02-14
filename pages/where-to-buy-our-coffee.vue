@@ -15,7 +15,7 @@
     </div>
     <div class="content__page" ref="contactUsHeader">
       <div class="content__header">
-        <h2 class="content__heading">Retail locations KAAPkoffie beans.</h2>
+        <h2 class="content__heading">Retail locations Kaap Koffie beans.</h2>
         <nuxtLink to="/contact-us" class="btn btn__primary"
           >Do you want to sell our beans?</nuxtLink
         >

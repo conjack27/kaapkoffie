@@ -48,7 +48,7 @@
       </div>
     </div>
 
-    <h2 class="home__blog-heading">The Route</h2>
+    <h2 class="home__blog-heading">The route</h2>
 
     <div class="home__map"></div>
 

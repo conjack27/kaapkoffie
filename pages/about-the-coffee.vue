@@ -4,7 +4,7 @@
       <div class="coffee__content">
         <h1 class="coffee__heading">About the coffee.</h1>
         <p class="coffee__paragraph-title">Roast Profile</p>
-        <p class="coffee__paragraph">Light Roast, Medium Roast & Dark•Roast</p>
+        <p class="coffee__paragraph">Medium Roast & Dark Roast</p>
         <p class="coffee__paragraph-title">Recommended Use</p>
         <p class="coffee__paragraph">Drip, Pour-Over</p>
         <p class="coffee__paragraph-title">Cupping Notes</p>
@@ -22,21 +22,18 @@
       />
       <div class="coffee__text">
         <h2 class="coffee__heading coffee__heading--bottom">
-          And where are they grown?
+          Where do they grow?
         </h2>
         <p class="coffee__paragraph coffee__paragraph--bottom">
-          Our Colombia Organic Sierra Nevada is produced by just 78 family
-          growers, located within the isolated Sierra Nevada de Santa Marta
-          coastal mountain range in Northern Colombia's Magdalena Department.
-          Their co-op, The CooAgroNevada, also known as The Cooperative of
-          Sierra Nevada and Santa Marta Coffee Growers and Farmers, unites these
-          coffee growing families from 19 different villages with the combined
-          goals to improve social welfare, economic growth, quality of coffee
-          and eco-tourism while preserving the region's picturesque peaks,
-          rivers and valleys. The Colombia Organic Sierra Nevada is also
-          designated as EP or "European Prep" — in the cup it achieves a very
-          nice balance between acidity and body while delivering an overall
-          smooth and nutty finish.
+          Our coffee beans grow in the Sierra Nevada natural park in Colombia.
+          This region is home to 78 coffee-growing families. These families are
+          united under the Cooperative ‘Sierra Nevada and Santa Marta Coffee
+          Growers and Farmers’, which consists of members from 19 different
+          villages. The cooperative is committed to achieving several goals,
+          including improving social welfare, promoting economic growth,
+          enhancing the quality of coffee, and supporting eco-tourism. All of
+          these efforts are aimed at preserving the region's stunning peaks,
+          rivers, and valleys.
         </p>
       </div>
     </div>

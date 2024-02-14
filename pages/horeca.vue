@@ -29,7 +29,7 @@
       ref="horecaMachines"
     >
       <div class="office__machines-top">
-        <h2 class="office__machines-heading">Koffie matters X KaapKoffie</h2>
+        <h2 class="office__machines-heading">Koffie matters X Kaap Koffie</h2>
         <p class="office__machines-paragraph">
           Are you ready to have coffee that aligns with your environmental and
           humanitarian standards?
