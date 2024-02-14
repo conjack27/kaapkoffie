@@ -6,7 +6,7 @@
     >
       <div class="home__coffee-cups">
         <NuxtLink
-          to="where-to-try-our-beans"
+          to="where-to-try-our-coffee"
           class="home__coffee-cup home__coffee-cup--1"
         >
           <img
