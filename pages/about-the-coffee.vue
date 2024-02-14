@@ -15,11 +15,7 @@
       </div>
     </section>
     <div class="coffee__section-bottom">
-      <img
-        src="/images/jungle.jpg"
-        alt="Lush, verdant jungle"
-        class="coffee__image"
-      />
+      <img src="/images/jungle.jpg" alt="Green jungle " class="coffee__image" />
       <div class="coffee__text">
         <h2 class="coffee__heading coffee__heading--bottom">
           Where do they grow?
