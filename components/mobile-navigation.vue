@@ -45,7 +45,7 @@
         isMenuExpanded: false,
         menuItems: [
           {
-            title: 'Order',
+            title: 'Try our coffee',
             showSubMenu: false,
             subMenu: [
               {
@@ -59,7 +59,7 @@
             ],
           },
           {
-            title: 'Businesses',
+            title: 'Get our beans',
             showSubMenu: false,
             subMenu: [
               { title: 'At your office', link: 'office' },
@@ -127,7 +127,7 @@
     top: 0;
     left: 0;
     width: 100%;
-    z-index: 1000;
+    z-index: 1003;
 
     @media (min-width: 600px) {
       display: none;
