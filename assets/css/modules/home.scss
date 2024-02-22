@@ -225,7 +225,11 @@
 
 .home__video {
   max-width: 100%;
-  width: 98%;
+  width: 90%;
+
+  @media (min-width: 600px) {
+    width: 70%;
+  }
 }
 
 .home__blog {

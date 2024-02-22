@@ -139,6 +139,12 @@
       font: $paragraph;
     }
 
+    &__paragraph--horeca {
+      @media (min-width: 600px) {
+        padding: 0 20px;
+      }
+    }
+
     &__cta {
       padding: 10px 40px;
       margin-right: 20px;

@@ -33,9 +33,9 @@
         coffee, but also supports the recognition of women.
       </p>
       <p class="text__paragraph">
-        n addition to Cooagronevada, we partner with Ecol Sierra. Ecol Sierra is
-        a company specialized in commercial export of specialty coffee. In case
-        of international export, this company safeguards the interests of
+        In addition to Cooagronevada, we partner with Ecol Sierra. Ecol Sierra
+        is a company specialized in commercial export of specialty coffee. In
+        case of international export, this company safeguards the interests of
         farmers in Colombia.
       </p>
       <p class="text__paragraph">

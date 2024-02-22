@@ -11,6 +11,16 @@
         <h1 class="hero__heading">
           Want to drink our coffee in your office, hotel or restaurant?
         </h1>
+        <p class="office__paragraph office__paragraph--horeca">
+          Besides our coffee being organic, it has a Q-grade above 80. This
+          means we also offer specialty coffee, considered one of the highest
+          qualities available.
+        </p>
+        <p class="office__paragraph office__paragraph--horeca">
+          Whether you have an existing coffee machine or need a new one,
+          together with Koffie Matters, we will find the perfect solution for
+          your business.
+        </p>
         <NuxtLink
           to="/contact-us"
           class="office__cta btn btn__primary hero__button"
