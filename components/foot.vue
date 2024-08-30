@@ -17,7 +17,8 @@
       <ul class="footer__section-list">
         <li class="footer__section-item">Phone: +31 6 42618212</li>
         <li class="footer__section-item">
-          Email: <a href="mailto:info@kaapkoffie.com">info@kaapkoffie.com</a>
+          Email:
+          <a href="mailto:orders@kaapkoffie.com">orders@kaapkoffie.com</a>
         </li>
         <li class="footer__section-item">
           Instagram:
